@@ -8,9 +8,11 @@
         Title="Message_Box" Height="350" Width="525">
     <Grid Background="#FF93B5E6">
         <TextBox x:Name="textBox" HorizontalAlignment="Stretch" Margin="10,10,10,43" TextWrapping="Wrap" Text="MessageBox" VerticalAlignment="Stretch" Width="Auto"/>
-        <Button x:Name="button" Content="Finish" HorizontalAlignment="Right" Margin="0,0,19,6" VerticalAlignment="Bottom" Width="86"/>
-        <Button x:Name="button1" Content="Previous" HorizontalAlignment="Right" Margin="0,0,110,6" VerticalAlignment="Bottom" Width="86"/>
-        <Button x:Name="button1_Copy" Content="Next" HorizontalAlignment="Right" Margin="0,0,201,6" VerticalAlignment="Bottom" Width="86"/>
+        <Button x:Name="Finish_Button" Content="Finish" HorizontalAlignment="Right" Margin="0,0,19,6" VerticalAlignment="Bottom" Width="86"/>
+        <Button x:Name="Previous_Button" Content="Previous" HorizontalAlignment="Right" Margin="0,0,110,6" VerticalAlignment="Bottom" Width="86"/>
+        <Button x:Name="Next_Button" Content="Next" HorizontalAlignment="Right" Margin="0,0,201,6" VerticalAlignment="Bottom" Width="86"/>
+        <Image x:Name="image" Source="do's.jpg"  HorizontalAlignment="Left" Height="35" Margin="26,67,0,0" VerticalAlignment="Top" Width="59"  MouseDown="image_MouseDown"/>
+
 
     </Grid>
 </Window>

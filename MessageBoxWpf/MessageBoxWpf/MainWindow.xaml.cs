@@ -20,9 +20,20 @@ namespace MessageBoxWpf
     /// </summary>
     public partial class MainWindow : Window
     {
+       
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Next_Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void image_MouseDown(object sender, MouseEventArgs e)
+        {
+            MessageBox.Show("hello");
         }
     }
 }
