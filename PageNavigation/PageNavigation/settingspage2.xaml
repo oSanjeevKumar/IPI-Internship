@@ -1,0 +1,17 @@
+﻿<Page x:Class="PageNavigation.settingspage2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PageNavigation"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="settingspage2">
+
+    <Grid Background="#FFC7E2F1" Margin="0,0,-202,0">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Stretch" Margin="10,36,10,77" TextWrapping="Wrap" VerticalAlignment="Stretch"  Background="#FFF3EFEF"><Run Text="1.Open Outlook On the E-mail tab, click New"/><LineBreak/><Run Text="2.Select &quot;Manually configure server settings or additional server types&quot; and click Next"/><LineBreak/><Run Text="3.Select Internet E-mail and click Next."/><LineBreak/><Run Text="4.Enter the following information for E-mail Accounts."/><LineBreak/></TextBlock>
+        <Label x:Name="label" Content="Settings_Page #2" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="113"/>
+        <Button x:Name="proceed" Content="Proceed" HorizontalAlignment="Left" Margin="10,0,0,50" VerticalAlignment="Bottom" Width="75" Click="proceed_Click"/>
+
+    </Grid>
+</Page>

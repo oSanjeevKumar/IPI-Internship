@@ -1,0 +1,16 @@
+﻿<Page x:Class="PageNavigation.settingspage1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PageNavigation"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="settingspage1">
+
+    <Grid Margin="0,0,-65,0" Background="#FFACA3A3">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="77" Margin="10,23,0,0" VerticalAlignment="Top" Width="89"/>
+        <Button x:Name="settings" Content="Settings" HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top" Width="89" Click="settings_Click"/>
+
+    </Grid>
+</Page>
