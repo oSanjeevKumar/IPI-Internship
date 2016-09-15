@@ -1,0 +1,14 @@
+﻿<Window x:Class="AsyncAwait.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncAwait"
+        mc:Ignorable="d"
+        Title="AsynAndAwait_Window " Height="350" Width="525">
+    <Grid>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="202,21,0,0" VerticalAlignment="Top" Width="97" Height="30" Click="StartButton_Click"/>
+        <TextBox x:Name="resultsTextBox" HorizontalAlignment="Left" Height="245" Margin="10,65,0,0" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" VerticalAlignment="Top" Width="497"/>
+
+    </Grid>
+</Window>
