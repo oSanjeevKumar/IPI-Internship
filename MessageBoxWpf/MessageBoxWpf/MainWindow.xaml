@@ -1,0 +1,18 @@
+﻿<Window x:Class="MessageBoxWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MessageBoxWpf"
+        mc:Ignorable="d"
+        Title="Message_Box" Height="350" Width="525">
+    <Grid Background="#FF93B5E6">
+        <TextBox x:Name="textBox" HorizontalAlignment="Stretch" Margin="10,10,10,43" TextWrapping="Wrap" Text="MessageBox" VerticalAlignment="Stretch" Width="Auto"/>
+        <Button x:Name="Finish_Button" Content="Finish" HorizontalAlignment="Right" Margin="0,0,19,6" VerticalAlignment="Bottom" Width="86"/>
+        <Button x:Name="Previous_Button" Content="Previous" HorizontalAlignment="Right" Margin="0,0,110,6" VerticalAlignment="Bottom" Width="86"/>
+        <Button x:Name="Next_Button" Content="Next" HorizontalAlignment="Right" Margin="0,0,201,6" VerticalAlignment="Bottom" Width="86"/>
+        <Image x:Name="image" Source="do's.jpg"  HorizontalAlignment="Left" Height="35" Margin="26,67,0,0" VerticalAlignment="Top" Width="59"  MouseDown="image_MouseDown"/>
+
+
+    </Grid>
+</Window>

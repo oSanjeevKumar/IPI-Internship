@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApplication1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Instruction_Window" Height="300" Width="416.807">
+    <Grid>
+        <ListView x:Name="listView" HorizontalAlignment="Stretch"  Margin="10,10,10,0" VerticalAlignment="Stretch"  SelectionChanged="listView_SelectionChanged" Background="#FFA6DDEA">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Instructions" />
+                </GridView>
+            </ListView.View>
+            <ListViewItem>
+                <StackPanel Orientation="Horizontal" Width="385" Height="23">
+                    <Image Source="Images/do's.jpg" Width="20" RenderTransformOrigin="-0.762,-0.178" VerticalAlignment="Top"/>
+                    <TextBlock Height="23" Margin="0,0,10,0" RenderTransformOrigin="0.487,0.557"><Run Text=" Do's"/></TextBlock>
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem >
+                <StackPanel Orientation="Horizontal" Width="385" Height="23">
+                    <Image Source="Images/don'ts.jpg"  Width="20" RenderTransformOrigin="-0.762,-0.178" VerticalAlignment="Top"/>
+                    <TextBlock Height="23" Margin="0,0,10,0" RenderTransformOrigin="0.487,0.557"><Run Text=" Don'ts"/></TextBlock>
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem >
+                <StackPanel Orientation="Horizontal" Width="385" Height="23">
+                    <Image Source="Images/warning.jpg"  Width="20" RenderTransformOrigin="-0.762,-0.178" Margin="0,0,0,3"/>
+                    <TextBlock Height="23" Margin="0,0,10,0" RenderTransformOrigin="0.487,0.557"><Run Text=" Warnings"/></TextBlock>
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem >
+                <StackPanel Orientation="Horizontal" Width="385" Height="23">
+                    <Image Source="Images/safety.jpg"  Width="20" RenderTransformOrigin="-0.762,-0.178" VerticalAlignment="Top" Cursor="Arrow"/>
+                    <TextBlock Height="23" Margin="0,0,10,0" RenderTransformOrigin="0.487,0.557" Width="68"><Run Text=" Safety First"/></TextBlock>
+                </StackPanel>
+            </ListViewItem>
+        </ListView>
+
+
+    </Grid>
+</Window>

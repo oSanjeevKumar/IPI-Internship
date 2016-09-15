@@ -1,0 +1,19 @@
+﻿<Window x:Class="Binding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Binding"
+        mc:Ignorable="d"
+        Title="Bindings" Height="350" Width="525">
+    <StackPanel Margin="10">
+        <TextBlock Height="33"  Text="Two way Mode" FontSize="20"></TextBlock>
+        <TextBox  Name="txtbox1" Height="33" Text="{Binding txtboxtext , Mode=TwoWay}" ></TextBox>
+        <TextBox  Height="33" Text="{Binding Path=Text, ElementName=txtbox1}" ></TextBox>
+        <Image x:Name="image" Source="{Binding image}"  MouseDown="Command_Click" Height="126" Margin="0,0,338,0"/>
+        <Label x:Name="label" FontSize="15" Height="30" Content="{Binding labeltext}" />
+
+
+    </StackPanel>
+</Window>
+
