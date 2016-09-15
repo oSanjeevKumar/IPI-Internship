@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TREEROOT>
+  <VERSION>1</VERSION>
+  <DMS>
+	  <!--rKeeper pos integration
+	  this file is used for getting directory path-->
+    <IsLogEnable>True</IsLogEnable>    
+    <IsFirstinitialize>True</IsFirstinitialize>
+    <ServiceState>True</ServiceState>    
+    <CAServiceState>False</CAServiceState>
+    <CARunningState>False</CARunningState>
+</DMS>
+</TREEROOT>

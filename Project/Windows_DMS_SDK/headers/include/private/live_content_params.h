@@ -1,0 +1,230 @@
+/*
+ * live_content_params.h
+ * Copyright (C) 2014 ACCESS CO.,LTD.
+ * All rights are reserved by ACCESS CO.,LTD.,
+ * whether the whole or part of the source code
+ * including any modifications is concerned.
+ *
+ * This is an unpublished source code of ACCESS CO.,LTD., and must be
+ * treated as confidential material.  The above copyright notice does
+ * not evidence any actual or intended publication of this source code.
+ */
+
+#ifndef LIVE_CONTENT_PARAMS_H
+#define LIVE_CONTENT_PARAMS_H
+
+
+/* DLNA Profile Audio component */
+typedef enum Live_Content_Audio_Portion_Profile_Type
+{
+  LIVE_CONTENT_AUD_UNKNOWN,            /* Unknown Profile */
+  LIVE_CONTENT_AUD_AAC_ISO,            /* MP4 P2 & MP4 P10 (AVC)    NOTE: AUD_AAC_ISO*/
+  LIVE_CONTENT_AUD_AAC_ISO_320,        /* Audio Only */
+  LIVE_CONTENT_AUD_AAC_ADTS,           /* Audio Only */
+  LIVE_CONTENT_AUD_AAC_ADTS_192,       /* Audio Only */
+  LIVE_CONTENT_AUD_AAC_ADTS_320,       /* Audio Only */
+  LIVE_CONTENT_AUD_HEAAC_MULT5,        /* MP4 P2 & MP4 P10 (AVC)    NOTE:AUD_HEAAC_MULT5_ISO */
+  LIVE_CONTENT_AUD_AAC_MULT5_ISO,      /* Audio Only */
+  LIVE_CONTENT_AUD_AAC_MULT5_ADTS,     /* Audio Only */
+  LIVE_CONTENT_AUD_HEAAC_L2_ISO_320,   /* Audio Only */
+  LIVE_CONTENT_AUD_HEAAC_L2_ADTS,      /* Audio Only */
+  LIVE_CONTENT_AUD_HEAAC_L2_ADTS_320,  /* Audio Only */
+  LIVE_CONTENT_AUD_HEAAC_L3_ISO,       /* Audio Only */
+  LIVE_CONTENT_AUD_HEAAC_L3_ADTS,      /* Audio Only */
+  LIVE_CONTENT_AUD_HEAAC_MULT5_ADTS,   /* Audio Only */
+  LIVE_CONTENT_AUD_ATRAC3plus,         /* MP4 P2 & MP4 P10 (AVC)*/
+  LIVE_CONTENT_AUD_AAC_LTP_STEREO,     /* MP4 P2 */
+  LIVE_CONTENT_AUD_MPEG1_L3,           /* MP4 P2 & MP4 P10 (AVC)*/
+  LIVE_CONTENT_AUD_MPEG2_L2,           /* MP4 P2 */
+  LIVE_CONTENT_AUD_AC3,                /* MP4 P2 & MP4 P10 (AVC)*/
+  LIVE_CONTENT_AUD_EAC3,               /* MP4 P2 & MP4 P10 (AVC)*/
+  LIVE_CONTENT_AUD_G726,               /* MP4 P2 */
+  LIVE_CONTENT_AUD_AMR,                /* MP4 P2 & MP4 P10 (AVC)*/
+  LIVE_CONTENT_AUD_AMR_WBplus,         /* MP4 P2 & MP4 P10 (AVC)*/
+  LIVE_CONTENT_AUD_HEAAC_L2,           /* MP4 P10 (AVC) NOTE: Used for AUD_HEAAC as well */
+  LIVE_CONTENT_AUD_AAC_LTP,            /* MP4 P10 (AVC) NOTE: AUD_AAC_LTP_ISO */
+  LIVE_CONTENT_AUD_AAC_LTP_MULT5,      /* MP4 P10 (AVC) NOTE: AUD_AAC_LTP_MULT7_ISO*/
+  LIVE_CONTENT_AUD_AAC_LTP_MULT7,      /* MP4 P10 (AVC) NOTE: AUD_AAC_LTP_MULT5_ISO*/
+  LIVE_CONTENT_AUD_BSAC,               /* MP4 P10 (AVC) NOTE: AUD_BSAC_ISO */
+  LIVE_CONTENT_AUD_BSAC_MULT5,         /* MP4 P10 (AVC) NOTE: AUD_BSAC_MULT5_ISO */
+  LIVE_CONTENT_AUD_HEAACv2_L2_MPS_DAB,
+#ifdef MEDIA_PROCESSING_EXTENSION
+  LIVE_CONTENT_AUD_DTS,
+  LIVE_CONTENT_AUD_DTSHD_HRA,
+  LIVE_CONTENT_AUD_DTSHD_LBR,
+  LIVE_CONTENT_AUD_DTSHD_MA,
+  LIVE_CONTENT_AUD_MLP,
+#endif /* MEDIA_PROCESSING_EXTENSION */
+  LIVE_CONTENT_AUD_PROF_T_LAST_ENTRY
+} live_cont_aud_prof_t;
+
+
+typedef enum Live_Content_Encoding_Type_Audio
+{
+  LIVE_CONTENT_UNKNOWN_BIT_RATE,
+  LIVE_CONTENT_CONSTANT_BIT_RATE,
+  LIVE_CONTENT_VARIABLE_BIT_RATE
+} live_cont_encoding_type_audio;
+
+
+typedef enum Live_Content_AUDIO_OBJECT_TYPE
+{
+  LIVE_CONTENT_AOT_UNKNOWN,
+  LIVE_CONTENT_AOT_AAC_MAIN,
+  LIVE_CONTENT_AOT_AAC_LC,
+  LIVE_CONTENT_AOT_AAC_LTP,
+  LIVE_CONTENT_AOT_HEAAC,
+  LIVE_CONTENT_AOT_ER_BSAC
+} live_cont_audio_obj_type;
+
+
+typedef enum Live_Content_Mp4_Format_Audio
+{
+  LIVE_CONTENT_FORMAT_UNKNOWN,
+  LIVE_CONTENT_FORMAT_MP4,
+  LIVE_CONTENT_FORMAT_3GP,
+} live_cont_mp4_format_audio;
+
+
+/* DLNA Profile Video component */
+typedef enum Live_Content_Video_Portion_Profile_Type
+{
+  LIVE_CONTENT_VID_UNKNOWN,            /* Unknown Profile */
+  LIVE_CONTENT_VID_SP_L0B,             /* MP4 P2 */
+  LIVE_CONTENT_VID_SP_L2,              /* MP4 P2 */
+  LIVE_CONTENT_VID_SP_L3,              /* MP4 P2 */
+  LIVE_CONTENT_VID_SP_L3_VGA,          /* MP4 P2 */
+  LIVE_CONTENT_VID_ASP_L5,             /* MP4 P2 */
+  LIVE_CONTENT_VID_ASP_L5_SO,          /* MP4 P2 */
+  LIVE_CONTENT_VID_ASP_L4_SO,          /* MP4 P2 */
+  LIVE_CONTENT_VID_H263_P0_L10,        /* MP4 P2 H263 */
+  LIVE_CONTENT_VID_H263_P3_L10,        /* MP4 P2 H263 */
+  LIVE_CONTENT_VID_CO,                 /* MP4 P2 */
+  LIVE_CONTENT_VID_MP_HD,              /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_MP_SD,              /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_MP_L4,              /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_MP_L3,              /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_HP_L4,              /* HP_L4: MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_CBP_L4,             /* CBP_L4: MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_CBP_L3,             /* CBP_L3: MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_BL_L3_SD,           /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_BL_L3L_SD,          /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_BL_CIF30,           /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_BL_L2_CIF30,        /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_BL_CIF15,           /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_BL_L12_CIF15,       /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_BL_L1B_QCIF,        /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_BL_QCIF15,          /* MP4 P10 (AVC) */
+#ifdef DEVELOPMENT_ENABLE_CVP_2_SERVER
+  LIVE_CONTENT_VID_AVC_MP4_EU,           /* MP4 P10 (AVC) */
+  LIVE_CONTENT_VID_AVC_MP4_EU_MPEG4_B13, /* MP4 P10 (AVC) */
+#endif /* DEVELOPMENT_ENABLE_CVP_2_SERVER */
+#ifdef DEVELOPMENT_ENABLE_AVC_MP4_MP_SD
+  LIVE_CONTENT_VID_AVC_MP4_MP_SD,        /* MP4 MP SD (AVC) */
+#endif /* DEVELOPMENT_ENABLE_AVC_MP4_MP_SD */
+#ifdef DEVELOPMENT_ENABLE_AVC_MP4_HP_HD
+  LIVE_CONTENT_VID_AVC_MP4_HP_HD,        /* MP4_HP_HD (AVC) */
+#endif /* DEVELOPMENT_ENABLE_AVC_MP4_HP_HD */
+  LIVE_CONTENT_VID_PROF_T_LAST_ENTRY
+} live_cont_vid_prof_t;
+
+
+typedef enum Live_Content_Video_Codec_Profile {
+  LIVE_CONTENT_VP_UNKNOWN,
+  LIVE_CONTENT_VP_MPEG4_H263_P0,
+  LIVE_CONTENT_VP_MPEG4SP,
+  LIVE_CONTENT_VP_MPEG4ASP,
+  LIVE_CONTENT_VP_MPEG4_AVC_BASE_LINE,
+  LIVE_CONTENT_VP_MPEG4_AVC_MAIN_PROFILE,
+  LIVE_CONTENT_VP_MPEG4_AVC_HIGH_PROFILE
+} live_cont_vc_prof_t;
+
+
+typedef enum Live_Content_DLNA_Video_Codec_Profile {
+  LIVE_CONTENT_VIDEO_CODEC_PROFILE_UNKNOWN,
+  LIVE_CONTENT_VIDEO_CODEC_PROFILE_MP_ML,
+  LIVE_CONTENT_VIDEO_CODEC_PROFILE_MP_HL
+} live_cont_dlna_video_codec_profile;
+
+
+typedef enum Live_Content_BITRATE_TYPE {
+  LIVE_CONTENT_BITRATE_TYPE_UNKNOWN,
+  LIVE_CONTENT_BITRATE_TYPE_CBR,
+  LIVE_CONTENT_BITRATE_TYPE_VBR
+} live_cont_bitrate_type;
+
+
+typedef enum Live_Content_Tv_System_Video {
+  LIVE_CONTENT_TV_SYSTEM_UNKNOWN,
+  LIVE_CONTENT_TV_SYSTEM_PAL,
+  LIVE_CONTENT_TV_SYSTEM_NTSC,
+  LIVE_CONTENT_TV_SYSTEM_SD,
+  LIVE_CONTENT_TV_SYSTEM_HD
+} live_content_tv_system_video;
+
+
+typedef enum Live_Content_Mpeg2_Type {
+  LIVE_CONTENT_MPEG2_TYPE_UNKNOWN,
+  LIVE_CONTENT_MPEG2_TYPE_PS,
+  LIVE_CONTENT_MPEG2_TYPE_TS
+} live_cont_mpeg2_type;
+
+
+typedef enum Live_Content_Interlacing_Info {
+  LIVE_CONTENT_INTERLACING_UNKNOWN,
+  LIVE_CONTENT_INTERLACING_PROGRESSIVE,
+  LIVE_CONTENT_INTERLACING_INTERLACED
+} live_cont_interlacing_info;
+
+
+typedef enum Live_Content_Mpeg2_Audio_Profile {
+  LIVE_CONTENT_MPEG2_AUDIO_TYPE_UNKNOWN,
+  LIVE_CONTENT_MPEG2_AUDIO_TYPE_XA3,
+  LIVE_CONTENT_MPEG2_AUDIO_TYPE_DTS,
+  LIVE_CONTENT_MPEG2_AUDIO_TYPE_DTSHD,
+  LIVE_CONTENT_MPEG2_AUDIO_TYPE_DTSHD_HRA,
+  LIVE_CONTENT_MPEG2_AUDIO_TYPE_DTSHD_MA
+} live_cont_mpeg2_audio_profile;
+
+
+typedef enum Live_Content_Mpeg2_Region {
+  LIVE_CONTENT_MPEG2_REGION_UNKNOWN,
+  LIVE_CONTENT_MPEG2_REGION_JP,
+  LIVE_CONTENT_MPEG2_REGION_NA,
+  LIVE_CONTENT_MPEG2_REGION_EU,
+  LIVE_CONTENT_MPEG2_REGION_KO
+} live_cont_mpeg2_region;
+
+
+typedef enum Live_Content_Mpeg2_Stream_Type {
+  LIVE_CONTENT_MPEG2_STREAM_NOTYPE,
+  LIVE_CONTENT_MPEG2_STREAM_NOTS, 
+  LIVE_CONTENT_MPEG2_STREAM_VALID_TS,
+  LIVE_CONTENT_MPEG2_STREAM_INVALID_TS,
+  LIVE_CONTENT_MPEG2_STREAM_NOTS_JP,
+  LIVE_CONTENT_MPEG2_STREAM_VALID_TS_JP,
+  LIVE_CONTENT_MPEG2_STREAM_INVALID_TS_JP,
+  LIVE_CONTENT_MPEG2_STREAM_ARIB_PARTIAL_TS
+} live_cont_mpeg2_stream_type;
+
+
+typedef enum Live_Content_Audio_Codec_Profile {
+  LIVE_CONTENT_AUDIO_CODEC_UNKNOWN,
+  LIVE_CONTENT_AUDIO_CODEC_AC_AAC,
+  LIVE_CONTENT_AUDIO_CODEC_AC_MPEG1_L2
+} live_cont_audio_codec_profile;
+
+
+typedef enum Live_Content_System_Portion_Profile_Type {
+  LIVE_CONTENT_SYS_UNKNOWN,
+  LIVE_CONTENT_SYS_MP4,
+  LIVE_CONTENT_SYS_MPEG2_TS,
+  LIVE_CONTENT_SYS_MPEG2_TS_T,
+  LIVE_CONTENT_SYS_MPEG2_TS_ISO,
+  LIVE_CONTENT_SYS_ASF,
+  LIVE_CONTENT_SYS_3GPP,
+  LIVE_CONTENT_SYS_PROF_T_LAST_ENTRY
+} live_cont_system_codec_profile;
+
+#endif /* LIVE_CONTENT_PARAMS_H */
+

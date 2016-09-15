@@ -1,0 +1,111 @@
+/*
+	slimrslv.txt
+	Copyright(c) 1996-2005 ACCESS CO., LTD.
+	All rights are reserved by ACCESS CO., LTD., whether the whole or
+	part of the source code including any modifications.
+*/
+
+
+/* clib */
+
+SLIM_RESOLVE_EXTERN	slim_int g_slim_clib_random_index;
+SLIM_RESOLVE_EXTERN	slim_int g_slim_clib_random_table[55];
+
+
+
+/* string */
+
+SLIM_RESOLVE_EXTERN	TFixedString gSlim_FixedStringHashTable[SLIM_FIXEDSTRING_HASHSIZE];
+
+
+
+/* memory */
+
+#ifdef SLIM_CONFIG_MEMORY_STANDARD
+
+SLIM_RESOLVE_EXTERN	void *gSlim_MemoryHeapBase;
+SLIM_RESOLVE_EXTERN	void *gSlim_MemoryHeapBreak;
+SLIM_RESOLVE_EXTERN	TMemBlock *gSlim_MemoryHeapMap;
+SLIM_RESOLVE_EXTERN	slim_int gSlim_MemoryFragBlk[SLIM_MEMORY_BLOG];
+SLIM_RESOLVE_EXTERN	slim_int gSlim_MemoryCurFragBlk[SLIM_MEMORY_BLOG];
+SLIM_RESOLVE_EXTERN	TMasterPtrBlk *gSlim_MemoryMPtrBlk;
+SLIM_RESOLVE_EXTERN	TMasterPtrBlk *gSlim_MemoryCurMPtrBlk;
+SLIM_RESOLVE_EXTERN	slim_int gSlim_MemoryMPtrIndex;
+SLIM_RESOLVE_EXTERN	slim_int gSlim_MemoryPersistMPtrBound;
+SLIM_RESOLVE_EXTERN	slim_int gSlim_MemoryRemainingBlocks;
+SLIM_RESOLVE_EXTERN	TCallbackTable gSlim_StdCallbackTable[SLIM_STD_MEMORY_MAX_NEW_HANDLERS];
+SLIM_RESOLVE_EXTERN	slim_bool gSlim_DisableCompaction;
+
+#ifdef SLIM_CONFIG_MEMORY_DEBUG
+SLIM_RESOLVE_EXTERN	slim_int gSlim_MemoryBlocks;
+SLIM_RESOLVE_EXTERN	slim_int gSlim_MemoryLocateCount;
+SLIM_RESOLVE_EXTERN	Slim_MemoryRandomAllocFailureProc gSlim_MemoryRandomAllocFailureProc;
+SLIM_RESOLVE_EXTERN	slim_word gSlim_MemoryFrom;
+SLIM_RESOLVE_EXTERN slim_char gSlim_MemoryFromName[128];
+SLIM_RESOLVE_EXTERN	SLIM_MemoryAllocFreeDebugNotifyProc gSlim_MemoryAllocFreeDebugNotifyProc;
+#endif /* SLIM_CONFIG_MEMORY_DEBUG */
+
+#ifdef SLIM_CONFIG_MEMORY_PROTECT_DEBUG
+SLIM_RESOLVE_EXTERN	void *gSlim_MemoryProtectBase;
+#endif /* SLIM_CONFIG_MEMORY_PROTECT_DEBUG */
+
+#ifdef SLIM_CONFIG_MULTITHREAD
+SLIM_RESOLVE_EXTERN	slim_opaque gSlim_StdMemoryMutex;
+#endif /* SLIM_CONFIG_MULTITHREAD */
+
+#endif /* SLIM_CONFIG_MEMORY_STANDARD */
+
+
+#ifdef SLIM_CONFIG_MEMORY_ALTERNATIVE
+
+SLIM_RESOLVE_EXTERN	TCallbackTable gSlim_AltCallbackTable[SLIM_ALT_MEMORY_MAX_NEW_HANDLERS];
+
+#ifdef SLIM_CONFIG_MEMORY_DEBUG_ALTERNATIVE
+SLIM_RESOLVE_EXTERN	SLIM_MemoryAllocFreeDebugNotifyProc gSlim_AltMemoryAllocFreeDebugNotifyProc;
+SLIM_RESOLVE_EXTERN	slim_int gSlim_Total;
+SLIM_RESOLVE_EXTERN	TDebugCell *gSlim_Head;
+#endif /* SLIM_CONFIG_MEMORY_DEBUG_ALTERNATIVE */
+
+#ifdef SLIM_CONFIG_MULTITHREAD
+SLIM_RESOLVE_EXTERN	slim_opaque gSlim_AltMemoryMutex;
+#endif /* SLIM_CONFIG_MULTITHREAD */
+
+#ifdef SLIM_CONFIG_USE_FLAT_VHANDLEPTR
+SLIM_RESOLVE_EXTERN	void **gSlim_AltVHandlePtrTable;
+SLIM_RESOLVE_EXTERN	slim_int gSlim_AltVHandlePtrCount;
+#ifdef SLIM_CONFIG_MEMORY_DEBUG_ALTERNATIVE
+SLIM_RESOLVE_EXTERN	slim_int gSlim_AltVHandlePtrCountMax;
+SLIM_RESOLVE_EXTERN	slim_int gSlim_AltVHandlePtrFailCount;
+#endif
+#endif
+
+#endif /* SLIM_CONFIG_MEMORY_ALTERNATIVE */
+
+
+
+/* memnode */
+
+#ifdef SLIM_CONFIG_MEMORY_STANDARD
+
+#ifdef SLIM_CONFIG_POINTER_MEMNODE
+#ifdef SLIM_CONFIG_PTRMEMNODE_DEBUG
+SLIM_RESOLVE_EXTERN	slim_bool gSlim_PtrMemNodeIDLast;
+SLIM_RESOLVE_EXTERN	PtrMemNode_AllocFreeDebugNotifyProc gSlim_PtrMemNodeAllocFreeDebugNotifyProc;
+#endif /* SLIM_CONFIG_PTRMEMNODE_DEBUG */
+#endif /* SLIM_CONFIG_POINTER_MEMNODE */
+
+#ifdef SLIM_CONFIG_MEMNODE_DEBUG
+SLIM_RESOLVE_EXTERN	slim_bool gSlim_MemNodeIDLast;
+SLIM_RESOLVE_EXTERN	StdMemNode_AllocFreeDebugNotifyProc gSlim_StdMemNodeAllocFreeDebugNotifyProc;
+#endif /* SLIM_CONFIG_MEMNODE_DEBUG */
+
+#endif /* SLIM_CONFIG_MEMORY_STANDARD */
+
+
+
+/* log */
+#if defined (SLIM_CONFIG_DEBUG_LOG) && !defined (SLIM_LOG_CUSTOMPEER)
+
+SLIM_RESOLVE_EXTERN void* gSlim_LogContext;
+
+#endif

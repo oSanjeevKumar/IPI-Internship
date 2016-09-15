@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<excludeList>
+  <entry>Recycled</entry>
+  <entry>$Recycle.Bin</entry>
+  <entry>Recycler</entry>
+  <entry>RECYCLE</entry>
+  <entry>.nflc_data</entry>
+  <entry>.contentaggregation</entry>
+  <entry>.twine_data</entry>
+  <entry>.Trash</entry>
+  <entry>.Trash-1000</entry>
+  <entry>LOST.DIR</entry>
+  <entry>lost+found</entry>
+  <entry>Lost+found</entry>
+  <entry>_album_art</entry>
+  <entry>.AppleDouble</entry>
+  <entry>.AppleDB</entry>
+  <entry>.AppleDesktop</entry>
+  <entry>TemporaryItems</entry>
+  <entry>Software</entry>
+  <entry>_WDPROT</entry>
+  <entry>System Volume Information</entry>
+  <entry>.fseventsd</entry>
+  <entry>.Spotlight-V100</entry>
+  <entry>.Trashes</entry>
+  <entry>Program Files (x86)</entry>
+  <entry>Program Files</entry>
+  <entry>Windows</entry>
+  <entry>Windows 8 x64</entry>
+  <entry>ProgramData</entry>
+  <entry>coreLog.txt</entry>
+  <entry>uuid.dat</entry>
+  <entry>symbols</entry>
+  <entry>MSOCache</entry>
+  <entry>AppData</entry>
+  <entry>SWTOOLS</entry>
+  <entry>DRIVERS</entry>
+</excludeList>
