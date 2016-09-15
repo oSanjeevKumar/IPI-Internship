@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>XamlAnimatedGif</id>
+    <version>1.0.9</version>
+    <title>XAML Animated GIF</title>
+    <authors>Thomas Levesque</authors>
+    <owners>Thomas Levesque</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
+    <projectUrl>https://github.com/XamlAnimatedGif/XamlAnimatedGif</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/XamlAnimatedGif/XamlAnimatedGif/master/NuGet/XamlAnimatedGif-128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple library to display animated GIF images in XAML applications. Currently supported platforms include WPF (.NET 4.5), Windows 8.1 and Windows Phone 8.1.</description>
+    <summary>A simple library to display animated GIF images in XAML applications</summary>
+    <releaseNotes>- 1.0.9: Implemented #28: add DownloadProgress event to AnimationBehavior class
+- 1.0.8: Implemented #33: add Rewind() method to Animator class
+- 1.0.7: Fixed #37: fix error when AutoStart is false and animation is started manually from the Loaded event handler
+- 1.0.6: Fixed #27: wrong dependency version for .NET 4.0
+- 1.0.5: Fixed #27: leaked Animator instances when the Image is unloaded or never loaded
+- 1.0.4: Fixed #29: handling of unknown frame disposal method
+- 1.0.3: Fixed memory leak when animation source is changed before previous animation is completely loaded
+- 1.0.2: Fixed bug in Animator.Dispose where Cancel was called on the wrong CancellationTokenSource
+- 1.0.1: Fixed LZW decoding issue in some optimized images when the code table is full (#19)
+         Fixed bug in error reporting (failed to raise the Error event)
+- 1.0.0: First stable release</releaseNotes>
+    <tags>xaml animated gif winrt wpf windows-phone</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETPortable0.0-win81+wpa81" />
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+        <dependency id="Microsoft.Net.Http" version="2.2.29" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.0, .NETFramework4.5" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.0, .NETFramework4.5" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.0, .NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.0, .NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

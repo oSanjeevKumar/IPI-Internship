@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  attribute "ts"  is timestamp 0|1
+
+  if level is empty -> all levels are set
+
+  <Levels>
+   <Level>FATAL</Level>
+   <Level>ERROR</Level>
+   <Level>TRACE</Level>
+   <Level>DEBUG</Level>
+   <Level>INFO</Level>
+   <Level>WARN</Level>
+  </Levels>
+-->
+
+<Root>
+ <Modules>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">SSDP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">MEMORY</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">GENA</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">SOAP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">HTTP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">UPNP_COMMON</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">UPNP_CORE</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">UPNP_TRANSPORT</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">UPNP_RCS</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">UPNP_AVTS</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">UPNP_CMS</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">UPNP_CP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">UPNP_CDS</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">UPNP_BMS</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">UPNP_EMS</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DEVICECLASS_DEVICE</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">MEDIA</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DTCP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DEVICECLASS_COMMON</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DEVCAP_RUI</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DEVCAP_DN</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DEVCAP_UP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DEVCAP_DIAG</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DEVCAP_LP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DEVCAP_PR</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">WEBINTERFACE</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DB</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">MPE</Module> 
+  <Module enabled="0" ts="0" level="ERROR,FATAL,WARN">UTIL</Module> 
+  <Module enabled="0" ts="0" level="ERROR,FATAL,WARN">MEDIALINK</Module> 
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">TWINE</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">RA</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">RA_ALG</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">RA_CHANNEL</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">RA_CO_CHANNEL</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">RA_LI_CHANNEL</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">DEVMAN</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">API</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">JNI</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN,INFO">APP</Module> 
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_AUTOIP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_DHCPC</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_NETIF</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_NETLINK</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_SYSCTL</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_CAS</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_CERT</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_DB</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_DIAG</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_DIR</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_DOWNLOADER</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_FILE</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_HTTP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_IMAGE</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_JUMP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_LIVE</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_LP</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_MEMORY</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_MPE</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_NET</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_OBJECT_RIGHTS_MANAGER</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_PLAYER</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_PRINT</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_PROGRESS</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_PUSH_SERVER</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_RANDOM</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_STREAM</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_STRING</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_SYSTEM</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_THREAD</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_TR69</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_UPLOADER</Module>
+  <Module enabled="1" ts="0" level="ERROR,FATAL,WARN">PEER_EVENT</Module>
+ </Modules>
+</Root>

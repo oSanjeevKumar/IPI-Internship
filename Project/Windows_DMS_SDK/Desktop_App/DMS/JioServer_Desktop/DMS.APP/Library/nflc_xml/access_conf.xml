@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessConfigRoot>
+<dmsConfig>
+<language>english</language>
+<refreshFreq>5000</refreshFreq>
+<enabled>1</enabled>
+<defaultPictureThumbnailPath>./nflc_xml/icon/picture_normal.jpg</defaultPictureThumbnailPath> <!-- Absolute path starting with '/'; Relative path to working directory starting with '.'; Other path starting from configDirectory-->
+<defaultMusicThumbnailPath>./nflc_xml/icon/music_normal.jpg</defaultMusicThumbnailPath> <!-- Absolute path starting with '/'; Relative path to working directory starting with '.'; Other path starting from configDirectory-->
+<defaultVideoThumbnailPath>./nflc_xml/icon/video_normal.jpg</defaultVideoThumbnailPath> <!-- Absolute path starting with '/'; Relative path to working directory starting with '.'; Other path starting from configDirectory-->
+<defaultPictureMedThumbnailPath>./nflc_xml/icon/picture_large.jpg</defaultPictureMedThumbnailPath> <!-- Absolute path starting with '/'; Relative path to working directory starting with '.'; Other path starting from configDirectory-->
+<defaultMusicMedThumbnailPath>./nflc_xml/icon/music_large.jpg</defaultMusicMedThumbnailPath> <!-- Absolute path starting with '/'; Relative path to working directory starting with '.'; Other path starting from configDirectory-->
+<defaultVideoMedThumbnailPath>./nflc_xml/icon/video_large.jpg</defaultVideoMedThumbnailPath> <!-- Absolute path starting with '/'; Relative path to working directory starting with '.'; Other path starting from configDirectory-->
+<storageMessageFifo>/tmp/dms_ipc</storageMessageFifo>
+<storeEmbeddedAlbumArtsOnDisc>0</storeEmbeddedAlbumArtsOnDisc>
+<maxStreamSessions>0</maxStreamSessions> <!-- Maximum number of open streaming sessions; 0 to unlimit number of open http streaming sessions, value >0 to limit parallel streaming sessions -->
+<mpeServerResponseTimeOut>60</mpeServerResponseTimeOut> <!-- In Seconds; -1 for disable usage of timeout, value >= 0 to set value in seconds (0 waits forever) -->
+<!-- Content Aggregation configurations -->
+<contentAggregationEnable>0</contentAggregationEnable>
+<contentAggregationPath>./dms_data</contentAggregationPath> <!-- Absolute path starting with '/'; Relative path to working directory starting with '.'; Other path starting from configDirectory-->
+<contentAggregationPathSelectionMode>1</contentAggregationPathSelectionMode> <!-- If 1 path should be selected manually, if 0 path will be selected automatically (if contentAggregationPath is not specified first storage is selected-->
+<contentAggregationDatabaseLimit>512</contentAggregationDatabaseLimit> <!-- Database size limit in MBytes, 0 means no limit util storage space is out -->
+<contentAggregationPurgeEnable>0</contentAggregationPurgeEnable> <!-- Enable purge invalid database record, default is false -->
+<contentAggregationPurgeTime>1</contentAggregationPurgeTime> <!-- Time to purge invalid database record such as those from invalid slave DMS, 0 for 0am, 1 for 1am, 23 for 11pm  -->
+<contentAggregationRescanTime>600</contentAggregationRescanTime> <!-- Period for re-scan CA contents from all slave DMS in seconds -->
+<!-- SSDP M-Search Params, configure these values according to the requirements but please ensure you do not violate specifications -->
+<ssdpNotifyInterval>300</ssdpNotifyInterval>   	       	<!-- In Seconds - M-Search Advertisements Interval (Heart-Beat) -->
+<ssdpNotifyMsgDelay>200</ssdpNotifyMsgDelay>            <!-- In Milliseconds - Delay between each copy of m-search advertisement -->
+<ssdpNotifyMaxAge>1800</ssdpNotifyMaxAge>               <!-- In Seconds - Cache-Control Max-Age -->
+<ssdpNotifyMsgCopyCount>4</ssdpNotifyMsgCopyCount>      <!-- Number of M-Search Message copies -->
+<!-- STORAGE MEMCHECK - AVAILABLE MEMORY ON THE STORAGE FOR INDEXING AND REBUILD -->
+<memCheckMemoryLimit>64</memCheckMemoryLimit>         <!-- In MegaBytes - It is the minimum amount of memory required for Indexing or Re-Indexing on the Storage during start and during every memCheckRepeatCount -->
+<memCheckRepeatCount>100</memCheckRepeatCount>         <!-- Memory Check is repeated every memCheckRepeatCount during Indexing or Rebuild -->
+<webuiPort>5566</webuiPort>
+<PalDmsUpnpPortMin>2869</PalDmsUpnpPortMin>
+<MpeServerPort>9978</MpeServerPort>
+<localDBWAL>1</localDBWAL>                           <!-- Set this to 1 to enable WAL Journaling for Local Databases, or 0 to enale Rollback Journaling -->
+<databaseCheckpoint>100</databaseCheckpoint>         <!-- Set this to configure after how many items checkpoint will be triggered -->
+<PartialIndexingTN>0</PartialIndexingTN>             <!-- Set this to 0 to disable Thumbnails Generation during Partial Indexing -->
+<thumbnailRebuildInterval>20</thumbnailRebuildInterval> <!-- In Seconds - Change this value to the desired interval when the thumbnails rebuild should be triggerred-->
+<jpegRescale method="line_by_line" memory_limit="3679683" /> <!-- Jpeg rescale routine configuration. method="line_by_line", no options. method="whole_image", option memory_limit="value" memory available to routine in bytes -->
+<disableEmptyContainers>0</disableEmptyContainers>   <!-- Set this to 1 to hide containers without playable content, or 0 to keep them visible -->
+<onlineContentDB>./dms_data</onlineContentDB>
+<downloadSupport>1</downloadSupport>
+<uploadDeviceOption>1</uploadDeviceOption>
+<uploadFolderSelectionMode>0</uploadFolderSelectionMode> <!-- If 1 path should be selected manually, if 0 path will be selected automatically (if upload path is not specyfied first storage is selected) -->
+<jpegScaleLRG>0</jpegScaleLRG>
+<jpegScaleMED>1</jpegScaleMED>
+<jpegScaleSM>0</jpegScaleSM>
+<jpegScaleTN>1</jpegScaleTN>
+<maxStorageCount>50</maxStorageCount>
+</dmsConfig>
+<netConfig>
+<netInterface>lo</netInterface>
+<netInterface>eth0</netInterface>
+<netInterface>eth1</netInterface>
+<netInterface>eth2</netInterface>
+<netInterface>wlan0</netInterface>
+<netInterface>wlan1</netInterface>
+<netInterface>bdg2</netInterface>
+</netConfig>
+<web>
+<presentationURL>http://127.0.0.1:8080/smm/index.cgi</presentationURL>
+<webpageConfig>
+<maxContentPerPage>5</maxContentPerPage>
+<maxContentList>50</maxContentList>
+</webpageConfig>
+</web>
+</accessConfigRoot>

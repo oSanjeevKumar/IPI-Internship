@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir>$(SolutionDir)\lib\$(Configuration)\$(PlatformName)\</OutDir>
+    <IntDir>$(SolutionDir)\obj\$(Configuration)\$(PlatformName)\$(ProjectName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\headers\include\slim;..\..\..\..\headers\include;..\..\..\..\headers\include\peer;..\..\..\..\headers\include\private;..\..\..\..\headers\include\expat;..\..\..\..\headers\include\jpeg;..\..\..\..\headers\include\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories> 
+      <PreprocessorDefinitions>ENABLE_LOG_TO_FILE;DLNA_LOG_RUN_TIME;WIN32;NDEBUG;RELEASE;COMPILED_FROM_DSP;_WINDOWS;_UNICODE;UNICODE;_LIB;XML_STATIC;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Winmm.lib;Iphlpapi.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>

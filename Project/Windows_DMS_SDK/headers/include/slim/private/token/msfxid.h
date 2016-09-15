@@ -1,0 +1,106 @@
+/*
+	msfxid.h
+	Copyright(c) 1996-2006 ACCESS CO., LTD.
+	All rights are reserved by ACCESS CO., LTD., whether the whole or
+	part of the source code including any modifications.
+*/
+
+/* $Header: $ */
+
+/* DO NOT EDIT! This file is generated automagically. */
+
+#ifndef SLIM_TOKEN_MSFXID_H
+#define SLIM_TOKEN_MSFXID_H
+
+
+SLIM_BEGIN_C_LINKAGE
+
+enum {
+	SLIM_TKID_MSFX_html = 0,
+	SLIM_TKID_MSFX_htm,
+	SLIM_TKID_MSFX_xht,
+	SLIM_TKID_MSFX_xhtml,
+	SLIM_TKID_MSFX_txt,
+	SLIM_TKID_MSFX_xml,
+	SLIM_TKID_MSFX_gif,
+	SLIM_TKID_MSFX_jpeg,
+	SLIM_TKID_MSFX_jpg,
+	SLIM_TKID_MSFX_jpe,
+	SLIM_TKID_MSFX_png,
+	SLIM_TKID_MSFX_bmp,
+	SLIM_TKID_MSFX_mng,
+	SLIM_TKID_MSFX_css,
+	SLIM_TKID_MSFX_js,
+	SLIM_TKID_MSFX_mht,
+	SLIM_TKID_MSFX_mhtl,
+	SLIM_TKID_MSFX_eml,
+	SLIM_TKID_MSFX_nws,
+	SLIM_TKID_MSFX_smi,
+	SLIM_TKID_MSFX_smil,
+	SLIM_TKID_MSFX_sml,
+	SLIM_TKID_MSFX_mms,
+	SLIM_TKID_MSFX_rdf,
+	SLIM_TKID_MSFX_rss,
+	SLIM_TKID_MSFX_atom,
+	SLIM_TKID_MSFX_opml,
+	SLIM_TKID_MSFX_cdf,
+	SLIM_TKID_MSFX_xbel,
+	SLIM_TKID_MSFX_url,
+	SLIM_TKID_MSFX_wml,
+	SLIM_TKID_MSFX_wbmp,
+	SLIM_TKID_MSFX_wmls,
+	SLIM_TKID_MSFX_xhtmlmp,
+	SLIM_TKID_MSFX_wbxml,
+	SLIM_TKID_MSFX_wmlc,
+	SLIM_TKID_MSFX_wmlsc,
+	SLIM_TKID_MSFX_svg,
+	SLIM_TKID_MSFX_svgz,
+	SLIM_TKID_MSFX_pdf,
+	SLIM_TKID_MSFX_swf,
+	SLIM_TKID_MSFX_swfl,
+	SLIM_TKID_MSFX_spl,
+	SLIM_TKID_MSFX_ra,
+	SLIM_TKID_MSFX_rm,
+	SLIM_TKID_MSFX_ram,
+	SLIM_TKID_MSFX_class,
+	SLIM_TKID_MSFX_mid,
+	SLIM_TKID_MSFX_midi,
+	SLIM_TKID_MSFX_rmi,
+	SLIM_TKID_MSFX_wav,
+	SLIM_TKID_MSFX_aif,
+	SLIM_TKID_MSFX_aifc,
+	SLIM_TKID_MSFX_aiff,
+	SLIM_TKID_MSFX_au,
+	SLIM_TKID_MSFX_snd,
+	SLIM_TKID_MSFX_mpeg,
+	SLIM_TKID_MSFX_mpg,
+	SLIM_TKID_MSFX_mpe,
+	SLIM_TKID_MSFX_mp3,
+	SLIM_TKID_MSFX_mp2,
+	SLIM_TKID_MSFX_mpga,
+	SLIM_TKID_MSFX_mpega,
+	SLIM_TKID_MSFX_bin,
+	SLIM_TKID_MSFX_exe,
+	SLIM_TKID_MSFX_gz,
+	SLIM_TKID_MSFX_gzip,
+	SLIM_TKID_MSFX_tar,
+	SLIM_TKID_MSFX_zip,
+	SLIM_TKID_MSFX_wmv,
+	SLIM_TKID_MSFX_wm,
+	SLIM_TKID_MSFX_wma,
+	SLIM_TKID_MSFX_bjs,
+	SLIM_TKID_MSFX_doc,
+	SLIM_TKID_MSFX_xls,
+	SLIM_TKID_MSFX_csv,
+	SLIM_TKID_MSFX_ppt,
+	SLIM_TKID_MSFX_dm,
+	SLIM_TKID_MSFX_dcf,
+	SLIM_TKID_MSFX_ENUMS
+};
+
+#define SLIM_TOKEN_MSFX_TOKENS SLIM_TKID_MSFX_ENUMS
+#define SLIM_TOKEN_MSFX_ENUMS SLIM_TKID_MSFX_ENUMS
+
+
+SLIM_END_C_LINKAGE
+#endif

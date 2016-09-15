@@ -1,0 +1,18 @@
+﻿<Controls:MetroWindow x:Class="DMS.APP.StartUpScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" ResizeMode="NoResize"
+        Title="Jio Server" WindowStartupLocation="CenterScreen" WindowStyle="None" Height="450" Width="640" ShowTitleBar="False" 
+        ShowCloseButton="False" ShowMinButton="False" ShowMaxRestoreButton="False" BorderBrush="Gray" BorderThickness="1" IconTemplate="{StaticResource WindowIconTemplate}">
+    <DockPanel>
+        <Image Name="imgSplash" DockPanel.Dock="Top" Source="/Images/JIO_splashscreen_720p.jpg" Margin="0,0,0,0" Stretch="Fill" Height="360" Width="640"></Image>
+        <Label DockPanel.Dock="Top"></Label>
+        <Label DockPanel.Dock="Top" Foreground="Blue" Content="Loading..."/>
+        <ProgressBar DockPanel.Dock="Top" Name="pgrSplash" HorizontalAlignment="Left" Width="640" Height="20" Margin="0,0,-10,0"></ProgressBar>
+        <Label DockPanel.Dock="Top"></Label>
+        <DockPanel Margin="0,-13,0,0">
+            <Label DockPanel.Dock="Right" FontSize="16" Foreground="Blue" FontWeight="Bold" HorizontalAlignment="Right" Content="Jio Media Server" Margin="0,2,0,-2"/>
+        </DockPanel>
+        
+    </DockPanel>
+</Controls:MetroWindow>

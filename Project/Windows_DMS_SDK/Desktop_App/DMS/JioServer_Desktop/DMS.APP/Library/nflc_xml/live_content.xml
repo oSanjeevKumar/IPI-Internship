@@ -1,0 +1,3428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<publish-content>
+
+  <containerlist>	
+    <container>
+      <containerID>LiveContents</containerID>
+      <parentID>0</parentID>
+      <title>LiveContents</title>
+    </container>
+  </containerlist>
+
+  <videolist>
+    <item>
+      <!-- Sample 1 -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>12</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>2</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>4</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/video.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>DTCP Sample Title</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>1</channel_number>
+      <!-- Number of channel for live-content-->
+      <dlna_protocol_name>MPEG_PS_NTSC</dlna_protocol_name>
+      <!-- String of DLNA.ORG_PN -->
+    </item>
+    <item>
+      <!-- Sample 2 -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>12</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>0</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>0</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/video1.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>Sample Title</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+      <dlna_protocol_name>MPEG_PS_NTSC</dlna_protocol_name>
+      <!-- String of DLNA.ORG_PN -->
+    </item>
+    <item>
+      <!-- AVC_TS_NA_ISO -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>0</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>0</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/AVC_TS_NA_ISO.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>AVC_TS_NA_ISO Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate>3024000</audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate>3024000</audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>14</video_profile> <!-- 14 = LIVE_CONTENT_VID_MP_L3 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>1920</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>1080</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>60</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num>30</video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>30000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>30000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>4</tv_system> <!-- 4 = LIVE_CONTENT_TV_SYSTEM_HD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>4</system_prof> <!-- 4 = LIVE_CONTENT_SYS_MPEG2_TS_ISO -->
+      <!-- System profile -->
+      <system_bitrate>35000000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- DTCP_AVC_TS_NA_ISO -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>2</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>4</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/DTCP_AVC_TS_NA_ISO.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>DTCP_AVC_TS_NA_ISO Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate>3024000</audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate>3024000</audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>14</video_profile> <!-- 14 = LIVE_CONTENT_VID_MP_L3 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>1920</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>1080</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>60</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num>30</video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>30000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>30000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>4</tv_system> <!-- 4 = LIVE_CONTENT_TV_SYSTEM_HD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>4</system_prof> <!-- 4 = LIVE_CONTENT_SYS_MPEG2_TS_ISO -->
+      <!-- System profile -->
+      <system_bitrate>35000000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- AVC_TS_NA_T -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>0</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>0</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/AVC_TS_NA_T.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>AVC_TS_NA_T Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate>3024000</audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate>3024000</audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>14</video_profile> <!-- 14 = LIVE_CONTENT_VID_MP_L3 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>1920</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>1080</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>60</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num>30</video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>30000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>30000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>4</tv_system> <!-- 4 = LIVE_CONTENT_TV_SYSTEM_HD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>3</system_prof> <!-- 3 = LIVE_CONTENT_SYS_MPEG2_TS_T -->
+      <!-- System profile -->
+      <system_bitrate>35000000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- DTCP_AVC_TS_NA_T -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>2</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>4</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/DTCP_AVC_TS_NA_T.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>DTCP_AVC_TS_NA_T Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate>3024000</audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate>3024000</audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>14</video_profile> <!-- 14 = LIVE_CONTENT_VID_MP_L3 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>1920</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>1080</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>60</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num>30</video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>30000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>30000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>4</tv_system> <!-- 4 = LIVE_CONTENT_TV_SYSTEM_HD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>3</system_prof> <!-- 3 = LIVE_CONTENT_SYS_MPEG2_TS_T -->
+      <!-- System profile -->
+      <system_bitrate>35000000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- AVC_MP4_BL_CIF15_AAC_520 -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>0</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>0</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/AVC_MP4_BL_CIF15_AAC_520.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>AVC_MP4_BL_CIF15_AAC_520 Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp></bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate></audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate>128000</audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>22</video_profile> <!-- 22 = LIVE_CONTENT_VID_BL_CIF15 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>240</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>135</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>30</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num></video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den></video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>384000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>384000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system></tv_system>
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>1</system_prof> <!-- 1 = LIVE_CONTENT_SYS_MP4 -->
+      <!-- System profile -->
+      <system_bitrate>520000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- DTCP_AVC_MP4_BL_CIF15_AAC_520 -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>2</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>4</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/DTCP_AVC_MP4_BL_CIF15_AAC_520.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>DTCP_AVC_MP4_BL_CIF15_AAC_520 Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp></bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate></audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate>128000</audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>22</video_profile> <!-- 22 = LIVE_CONTENT_VID_BL_CIF15 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>240</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>135</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>30</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num></video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den></video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>384000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>384000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system></tv_system>
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>1</system_prof> <!-- 1 = LIVE_CONTENT_SYS_MP4 -->
+      <!-- System profile -->
+      <system_bitrate>520000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- AVC_TS_EU_ISO -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>0</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>0</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/AVC_TS_EU_ISO.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>AVC_TS_EU_ISO Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate></audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate></audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>14</video_profile> <!-- 14 = LIVE_CONTENT_VID_MP_L3 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>1920</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>1080</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>50</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num>25</video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>20000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>20000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>4</tv_system> <!-- 4 = LIVE_CONTENT_TV_SYSTEM_HD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>4</system_prof> <!-- 4 = LIVE_CONTENT_SYS_MPEG2_TS_ISO -->
+      <!-- System profile -->
+      <system_bitrate>24000000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- DTCP_AVC_TS_EU_ISO -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>2</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>4</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/DTCP_AVC_TS_EU_ISO.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>DTCP_AVC_TS_EU_ISO Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate></audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate></audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>14</video_profile> <!-- 14 = LIVE_CONTENT_VID_MP_L3 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>1920</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>1080</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>50</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num>25</video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>20000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>20000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>4</tv_system> <!-- 4 = LIVE_CONTENT_TV_SYSTEM_HD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>4</system_prof> <!-- 4 = LIVE_CONTENT_SYS_MPEG2_TS_ISO -->
+      <!-- System profile -->
+      <system_bitrate>24000000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- AVC_MP4_EU -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>0</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>0</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/AVC_MP4_EU.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>AVC_MP4_EU Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate></audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate></audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>15</video_profile> <!-- 15 = LIVE_CONTENT_VID_HP_L4 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>1920</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>1080</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>50</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num></video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den></video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>20000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>20000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>4</tv_system> <!-- 4 = LIVE_CONTENT_TV_SYSTEM_HD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>1</system_prof> <!-- 1 = LIVE_CONTENT_SYS_MP4 -->
+      <!-- System profile -->
+      <system_bitrate></system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- DTCP_AVC_MP4_EU -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>2</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>4</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/DTCP_AVC_MP4_EU.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>DTCP_AVC_MP4_EU Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate></audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate></audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>15</video_profile> <!-- 15 = LIVE_CONTENT_VID_HP_L4 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>1920</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>1080</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>50</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num></video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den></video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>20000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>20000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>4</tv_system> <!-- 4 = LIVE_CONTENT_TV_SYSTEM_HD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>1</system_prof> <!-- 1 = LIVE_CONTENT_SYS_MP4 -->
+      <!-- System profile -->
+      <system_bitrate></system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- AVC_MP4_MP_SD -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>0</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>0</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/AVC_MP4_MP_SD.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>AVC_MP4_MP_SD Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate>320000</audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate>320000</audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>14</video_profile> <!-- 14 = LIVE_CONTENT_VID_MP_L3 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>720</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>576</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>4</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>3</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>30</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num>50</video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>10000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>10000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>3</tv_system> <!-- 3 = LIVE_CONTENT_TV_SYSTEM_SD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>1</system_prof> <!-- 1 = LIVE_CONTENT_SYS_MP4 -->
+      <!-- System profile -->
+      <system_bitrate>11000000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- DTCP_AVC_MP4_MP_SD -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>2</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>4</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/DTCP_AVC_MP4_MP_SD.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>DTCP_AVC_MP4_MP_SD Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate>320000</audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate>320000</audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>14</video_profile> <!-- 14 = LIVE_CONTENT_VID_MP_L3 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>720</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>576</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>4</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>3</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>30</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num>50</video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>10000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>10000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>3</tv_system> <!-- 3 = LIVE_CONTENT_TV_SYSTEM_SD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>1</system_prof> <!-- 1 = LIVE_CONTENT_SYS_MP4 -->
+      <!-- System profile -->
+      <system_bitrate>11000000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- AVC_MP4_HP_HD -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>0</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>0</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/AVC_MP4_HP_HD.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>AVC_MP4_HP_HD Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate>320000</audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate>320000</audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>13</video_profile> <!-- 14 = LIVE_CONTENT_VID_MP_L4 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>1920</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>1080</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>30</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num>60</video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>25000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>25000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>4</tv_system> <!-- 4 = LIVE_CONTENT_TV_SYSTEM_HD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>1</system_prof> <!-- 1 = LIVE_CONTENT_SYS_MP4 -->
+      <!-- System profile -->
+      <system_bitrate>30000000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- DTCP_AVC_MP4_HP_HD -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>110</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>2</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>4</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/DTCP_AVC_MP4_HP_HD.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>DTCP_AVC_MP4_HP_HD Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>2</channel_number>
+      <!-- Number of channel for live-content-->
+
+      <audio_profile>0</audio_profile> <!-- 0 = LIVE_CONTENT_AUD_UNKNOWN -->
+      <!-- Audio Profile -->
+      <bits_per_samp>48000</bits_per_samp>
+      <!-- Bits per Sample [bit] -->
+      <audio_ave_bitrate>320000</audio_ave_bitrate>
+      <!-- Average Bitrate [bit/s] -->
+      <audio_max_bitrate>320000</audio_max_bitrate>
+      <!-- Max Bitrate [bit/s] -->
+      <audio_encoding_type></audio_encoding_type>
+      <!-- Audio Encoding Type -->
+      <quantization></quantization>
+      <!-- Quantization -->
+      <channel_mode_chans></channel_mode_chans>
+      <!-- Channel Mode channels -->
+      <channel_mode_subs></channel_mode_subs>
+      <!-- Channel Mode subs -->
+      <wma_pn_info></wma_pn_info>
+      <!-- WMA pn info -->
+      <is_mp4_pn_adts>false</is_mp4_pn_adts>
+      <!-- MP4 pn adts -->
+      <is_mp4_pn_ltp>false</is_mp4_pn_ltp>
+      <!-- MP4 pn ltp -->
+      <has_mp4_pn_sbr>true</has_mp4_pn_sbr>
+      <!-- MP4 pn sbr -->
+      <mp4_pn_audobjtype>2</mp4_pn_audobjtype> <!-- 2 = LIVE_CONTENT_AOT_AAC_LC -->
+      <!-- MP4 pn audobjtype -->
+      <mp4_pn_audio_format></mp4_pn_audio_format>
+      <!-- MP4 pn Audio format -->
+      <video_profile>13</video_profile> <!-- 14 = LIVE_CONTENT_VID_MP_L4 -->
+      <!-- Video Profile -->
+      <video_codec_profile></video_codec_profile>
+      <!-- Video Codec Profile -->
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <!-- DLNA Video Codec Profile -->
+      <video_res_width>1920</video_res_width>
+      <!-- Video Resolution Width -->
+      <video_res_height>1080</video_res_height>
+      <!-- Video Resolution Height -->
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <!-- Video Aspect Ratio Num -->
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <!-- Video Aspect Ratio Den -->
+      <video_framerate_num>30</video_framerate_num>
+      <!-- Video Framerate Number -->
+      <video_framerate_den>1</video_framerate_den>
+      <!-- Video Framerate den -->
+      <video_fieldrate_num>60</video_fieldrate_num>
+      <!-- Video Fieldrate Number -->
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <!-- Video Fieldrate den -->
+      <video_bitrate_type>1</video_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Bitrate Type -->
+      <video_bitrate_value>25000000</video_bitrate_value>
+      <!-- Video Bitrate Value [bit] -->
+      <video_max_bitrate_type>1</video_max_bitrate_type> <!-- 1 = LIVE_CONTENT_BITRATE_TYPE_CBR -->
+      <!-- Video Max Bitrate Type -->
+      <video_max_bitrate_value>25000000</video_max_bitrate_value>
+      <!-- Video Max Bitrate Value -->
+      <tv_system>4</tv_system> <!-- 4 = LIVE_CONTENT_TV_SYSTEM_HD -->
+      <!-- TV system -->
+      <video_streams></video_streams>
+      <!-- Video streams -->
+      <audio_streams></audio_streams>
+      <!-- Audio streams -->
+      <mpeg2_type></mpeg2_type>
+      <!-- MPEG2 Type (PS or TS) -->
+      <sys_bitrate></sys_bitrate>
+      <!-- System Bitrate -->
+      <pack_size></pack_size>
+      <!-- Pack size (must be 2048 bytes) -->
+      <proper_pack_header></proper_pack_header>
+      <!-- Proper pack header -->
+      <proper_audio_pack></proper_audio_pack>
+      <!-- Proper Audio pack -->
+      <proper_video_pack></proper_video_pack>
+      <!-- Proper Video pack -->
+      <proper_video_pack_header></proper_video_pack_header>
+      <!-- Proper Video pack header -->
+      <proper_system_header></proper_system_header>
+      <!-- Proper system header -->
+      <has_ifo></has_ifo>
+      <!-- IFO -->
+      <content_length></content_length>
+      <!-- Content length -->
+      <content_length_ifo></content_length_ifo>
+      <!-- Content length IFO -->
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <!-- MPEG2 stream ID -->
+      <proper_sequence_header></proper_sequence_header>
+      <!-- Proper sequence header -->
+      <gop_display_fields></gop_display_fields>
+      <!-- GOP display fields -->
+      <gop_display_frames></gop_display_frames>
+      <!-- GOP display frames -->
+      <has_low_delay></has_low_delay>
+      <!-- Low delay -->
+      <has_pts></has_pts>
+      <!-- PTS -->
+      <has_dts></has_dts>
+      <!-- DTS -->
+      <number_of_programs></number_of_programs>
+      <!-- Number of programs -->
+      <interlacing_info></interlacing_info>
+      <!-- Interlacing Info -->
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <!-- MPEG2 Audio profile -->
+      <ac3_stream_id></ac3_stream_id>
+      <!-- AC3 stream ID -->
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <!-- AC3 Proper pack header -->
+      <ac3_has_pts></ac3_has_pts>
+      <!-- AC3 PTS -->
+      <region></region>
+      <!-- Region -->
+      <stream_type></stream_type>
+      <!-- Stream type -->
+      <audio_codec></audio_codec>
+      <!-- Audio codec -->
+      <system_prof>1</system_prof> <!-- 1 = LIVE_CONTENT_SYS_MP4 -->
+      <!-- System profile -->
+      <system_bitrate>30000000</system_bitrate>
+      <!-- System bitrate [bit] -->
+    </item>
+    <item>
+      <!-- MPEG_TS_HD_NA_T -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>14</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>0</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>0</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/MPEG_TS_HD_NA_T.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>MPEG_TS_HD_NA_T Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>1</channel_number>
+      <!-- Number of channel for live-content-->
+      <audio_profile>19</audio_profile>
+      <!-- 19 = LIVE_CONTENT_AUD_AC3 -->
+      <bits_per_samp>48000</bits_per_samp>
+      <audio_ave_bitrate></audio_ave_bitrate>
+      <audio_max_bitrate>448000</audio_max_bitrate>
+      <video_profile>2</video_profile><!-- LIVE_CONTENT_VIDEO_CODEC_PROFILE_MP_HL -->
+      <video_codec_profile></video_codec_profile>
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <video_res_width>1920</video_res_width>
+      <video_res_height>1080</video_res_height>
+      <video_framerate_num>60000</video_framerate_num>
+      <video_framerate_den>1001</video_framerate_den>
+      <video_fieldrate_num>60</video_fieldrate_num>
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <video_bitrate_type>1</video_bitrate_type><!-- 1 = LIVE_CONTENT_CONSTANT_BIT_RATE (CBR) -->
+      <video_bitrate_value>19392000</video_bitrate_value>
+      <video_max_bitrate_type>1</video_max_bitrate_type><!-- 1 = LIVE_CONTENT_CONSTANT_BIT_RATE(CBR) -->
+      <video_max_bitrate_value>19392000</video_max_bitrate_value>
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <tv_system>4</tv_system><!-- 3 = TV_SYSTEM_HD -->
+      <video_streams></video_streams>
+      <audio_streams></audio_streams>
+      <mpeg2_type>2</mpeg2_type><!-- LIVE_CONTENT_MPEG2_TYPE_TS -->
+      <sys_bitrate></sys_bitrate> 
+      <pack_size></pack_size>
+      <proper_pack_header></proper_pack_header>
+      <proper_audio_pack></proper_audio_pack>
+      <proper_video_pack></proper_video_pack>
+      <proper_video_pack_header></proper_video_pack_header>
+      <proper_system_header></proper_system_header>
+      <has_ifo></has_ifo>
+      <content_length></content_length>
+      <content_length_ifo></content_length_ifo>
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <proper_sequence_header></proper_sequence_header>
+      <gop_display_fields></gop_display_fields>
+      <gop_display_frames></gop_display_frames>
+      <has_low_delay></has_low_delay>
+      <has_pts></has_pts>
+      <has_dts></has_dts>
+      <number_of_programs></number_of_programs>
+      <interlacing_info></interlacing_info>
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <ac3_stream_id></ac3_stream_id>
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <ac3_has_pts></ac3_has_pts>
+      <region>2</region><!-- LIVE_CONTENT_MPEG2_REGION_NA -->
+      <stream_type>2</stream_type><!-- LIVE_CONTENT_MPEG2_STREAM_VALID_TS -->
+      <audio_codec></audio_codec>
+      <system_prof>3</system_prof><!-- LIVE_CONTENT_SYS_MPEG2_TS_T -->
+      <system_bitrate>19392000</system_bitrate>
+    </item>
+    <item>
+      <!-- DTCP_MPEG_TS_HD_NA_T -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>14</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>2</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>4</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/DTCP_MPEG_TS_HD_NA_T.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>DTCP_MPEG_TS_HD_NA_T Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>1</channel_number>
+      <!-- Number of channel for live-content-->
+      <audio_profile>19</audio_profile>
+      <!-- 19 = LIVE_CONTENT_AUD_AC3 -->
+      <bits_per_samp>48000</bits_per_samp>
+      <audio_ave_bitrate></audio_ave_bitrate>
+      <audio_max_bitrate>448000</audio_max_bitrate>
+      <video_profile>2</video_profile><!-- LIVE_CONTENT_VIDEO_CODEC_PROFILE_MP_HL -->
+      <video_codec_profile></video_codec_profile>
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <video_res_width>1920</video_res_width>
+      <video_res_height>1080</video_res_height>
+      <video_framerate_num>60000</video_framerate_num>
+      <video_framerate_den>1001</video_framerate_den>
+      <video_fieldrate_num>60</video_fieldrate_num>
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <video_bitrate_type>1</video_bitrate_type><!-- 1 = LIVE_CONTENT_CONSTANT_BIT_RATE (CBR) -->
+      <video_bitrate_value>19392000</video_bitrate_value>
+      <video_max_bitrate_type>1</video_max_bitrate_type><!-- 1 = LIVE_CONTENT_CONSTANT_BIT_RATE(CBR) -->
+      <video_max_bitrate_value>19392000</video_max_bitrate_value>
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <tv_system>3</tv_system><!-- 3 = TV_SYSTEM_HD -->
+      <video_streams></video_streams>
+      <audio_streams></audio_streams>
+      <mpeg2_type>2</mpeg2_type><!-- LIVE_CONTENT_MPEG2_TYPE_TS -->
+      <sys_bitrate></sys_bitrate>
+      <pack_size></pack_size>
+      <proper_pack_header></proper_pack_header>
+      <proper_audio_pack></proper_audio_pack>
+      <proper_video_pack></proper_video_pack>
+      <proper_video_pack_header></proper_video_pack_header>
+      <proper_system_header></proper_system_header>
+      <has_ifo></has_ifo>
+      <content_length></content_length>
+      <content_length_ifo></content_length_ifo>
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <proper_sequence_header></proper_sequence_header>
+      <gop_display_fields></gop_display_fields>
+      <gop_display_frames></gop_display_frames>
+      <has_low_delay></has_low_delay>
+      <has_pts></has_pts>
+      <has_dts></has_dts>
+      <number_of_programs></number_of_programs>
+      <interlacing_info></interlacing_info>
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <ac3_stream_id></ac3_stream_id>
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <ac3_has_pts></ac3_has_pts>
+      <region>2</region><!-- LIVE_CONTENT_MPEG2_REGION_NA -->
+      <stream_type>2</stream_type><!-- LIVE_CONTENT_MPEG2_STREAM_VALID_TS -->
+      <audio_codec></audio_codec>
+      <system_prof>3</system_prof><!-- LIVE_CONTENT_SYS_MPEG2_TS_T -->
+      <system_bitrate>19392000</system_bitrate>
+    </item>
+    <item>
+      <!-- MPEG_TS_NA_ISO -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>14</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>0</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>0</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/MPEG_TS_NA_ISO.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>MPEG_TS_NA_ISO Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>1</channel_number>
+      <!-- Number of channel for live-content-->
+      <audio_profile>19</audio_profile>
+      <!-- 19 = LIVE_CONTENT_AUD_AC3 -->
+      <bits_per_samp>48000</bits_per_samp>
+      <audio_ave_bitrate></audio_ave_bitrate>
+      <audio_max_bitrate>640000</audio_max_bitrate>
+      <video_profile>1</video_profile><!-- LIVE_CONTENT_VIDEO_CODEC_PROFILE_MP_ML -->
+      <video_codec_profile></video_codec_profile>
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <video_res_width>1920</video_res_width>
+      <video_res_height>1080</video_res_height>
+      <video_framerate_num>60000</video_framerate_num>
+      <video_framerate_den>1001</video_framerate_den>
+      <video_fieldrate_num>60</video_fieldrate_num>
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <video_bitrate_type>1</video_bitrate_type><!-- 1 = LIVE_CONTENT_CONSTANT_BIT_RATE (CBR) -->
+      <video_bitrate_value>19392000</video_bitrate_value>
+      <video_max_bitrate_type>1</video_max_bitrate_type><!-- 1 = LIVE_CONTENT_CONSTANT_BIT_RATE(CBR) -->
+      <video_max_bitrate_value>19392000</video_max_bitrate_value>
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <tv_system>4</tv_system><!-- 3 = TV_SYSTEM_HD -->
+      <video_streams></video_streams>
+      <audio_streams></audio_streams>
+      <mpeg2_type>2</mpeg2_type><!-- LIVE_CONTENT_MPEG2_TYPE_TS -->
+      <sys_bitrate></sys_bitrate> 
+      <pack_size></pack_size>
+      <proper_pack_header></proper_pack_header>
+      <proper_audio_pack></proper_audio_pack>
+      <proper_video_pack></proper_video_pack>
+      <proper_video_pack_header></proper_video_pack_header>
+      <proper_system_header></proper_system_header>
+      <has_ifo></has_ifo>
+      <content_length></content_length>
+      <content_length_ifo></content_length_ifo>
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <proper_sequence_header></proper_sequence_header>
+      <gop_display_fields></gop_display_fields>
+      <gop_display_frames></gop_display_frames>
+      <has_low_delay></has_low_delay>
+      <has_pts></has_pts>
+      <has_dts></has_dts>
+      <number_of_programs></number_of_programs>
+      <interlacing_info></interlacing_info>
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <ac3_stream_id></ac3_stream_id>
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <ac3_has_pts></ac3_has_pts>
+      <region>2</region><!-- LIVE_CONTENT_MPEG2_REGION_NA -->
+      <stream_type>2</stream_type><!-- LIVE_CONTENT_MPEG2_STREAM_VALID_TS -->
+      <audio_codec></audio_codec>
+      <system_prof>4</system_prof><!-- LIVE_CONTENT_SYS_MPEG2_TS_ISO -->
+      <system_bitrate>19392000</system_bitrate>
+    </item>
+    <item>
+      <!-- DTCP_MPEG_TS_NA_ISO -->
+      <content_type>2</content_type>
+      <!-- 0: STREAM_RECORDED -->
+      <!-- 1: STREAMING_LIVE -->
+      <!-- 2: STREAMING_LIVE_CONTENT -->
+      <TDMSContentClassType>4</TDMSContentClassType>
+      <!-- 0: image, 1: audio, 2: video, 3: playlist, 4: live-content -->
+      <TDMSContentType>14</TDMSContentType>
+      <!-- 1: jpeg, 2: png, 6: mp3, 12: mpeg2 -->
+      <content_encrypted>false</content_encrypted>
+      <!-- true:content is CAS encryped, false:content is not CAS encryped -->
+      <protection>2</protection>
+      <!-- 0: -->
+      <!-- 1: CADRM_PROTECTED -->
+      <!-- 2: DTCP_PROTECTED -->
+      <!-- 3: -->
+      <!-- 4: CADRM_PROTECTED and DTCP_PROTECTED -->
+      <dtcp_cci>4</dtcp_cci>
+      <!-- 0:Copy Free -->
+      <!-- 1:Copy Free with EPN Inserted -->
+      <!-- 2:Copy One Generation -->
+      <!-- 3:No More Copies -->
+      <!-- 4:Copy Never -->
+      <extID></extID>
+      <!-- Unknown -->
+      <seekType>4</seekType>
+      <!-- bit1: Support full randam byte-seek -->
+      <!-- bit2: Support full randam time-seek -->
+      <!-- bit3: Support limited randam byte-seek -->
+      <!-- bit4: Support limited randam time-seek -->
+      <url>/media/pvr/DTCP_MPEG_TS_NA_ISO.mpg</url>
+      <!-- Path of media -->
+      <readable>true</readable>
+      <!-- Unknown -->
+      <parentID>LiveContents</parentID>
+      <!-- Parent container's ID -->
+      <title>DTCP_MPEG_TS_NA_ISO Sample</title>
+      <!-- Title -->
+      <album>Sample Album</album>
+      <!-- Album name -->
+      <creator>Sample Creator</creator>
+      <!-- Creator name -->
+      <genre>Sample Genre</genre>
+      <!-- Genre name -->
+      <artist>Sample Artist</artist>
+      <!-- Artist name -->
+      <mime>video/mpeg</mime>
+      <!-- String of mime-type -->
+      <composer>Sample Composer</composer>
+      <!-- Composer name -->
+      <rating>Sample Composer</rating>
+      <!-- Rating value -->
+      <duration>00:00:00.0000</duration>
+      <!-- String of duration (HH:MM:SS.MS) -->
+      <date>0</date>
+      <!-- Date (format is unkown) -->
+      <channels>0</channels>
+      <!-- Num of channel -->
+      <bitrate>1000000</bitrate>
+      <!-- Value of bitrate -->
+      <samplingrate>1000000</samplingrate>
+      <!-- Value of samplingrate -->
+      <width>100</width>
+      <!-- Value of width -->
+      <height>100</height>
+      <!-- Value of height -->
+      <size_high></size_high>
+      <!-- Higher value of size -->
+      <size_low></size_low>
+      <!-- Lower value of size -->
+      <channel_number>1</channel_number>
+      <!-- Number of channel for live-content-->
+      <audio_profile>19</audio_profile>
+      <!-- 19 = LIVE_CONTENT_AUD_AC3 -->
+      <bits_per_samp>48000</bits_per_samp>
+      <audio_ave_bitrate></audio_ave_bitrate>
+      <audio_max_bitrate>640000</audio_max_bitrate>
+      <video_profile>1</video_profile><!-- LIVE_CONTENT_VIDEO_CODEC_PROFILE_MP_ML -->
+      <video_codec_profile></video_codec_profile>
+      <dlna_video_codec_profile></dlna_video_codec_profile>
+      <video_res_width>1920</video_res_width>
+      <video_res_height>1080</video_res_height>
+      <video_framerate_num>60000</video_framerate_num>
+      <video_framerate_den>1001</video_framerate_den>
+      <video_fieldrate_num>60</video_fieldrate_num>
+      <video_fieldrate_den>1</video_fieldrate_den>
+      <video_bitrate_type>1</video_bitrate_type><!-- 1 = LIVE_CONTENT_CONSTANT_BIT_RATE (CBR) -->
+      <video_bitrate_value>19392000</video_bitrate_value>
+      <video_max_bitrate_type>1</video_max_bitrate_type><!-- 1 = LIVE_CONTENT_CONSTANT_BIT_RATE(CBR) -->
+      <video_max_bitrate_value>19392000</video_max_bitrate_value>
+      <video_aspect_ratio_num>16</video_aspect_ratio_num>
+      <video_aspect_ratio_den>9</video_aspect_ratio_den>
+      <tv_system>3</tv_system><!-- 3 = TV_SYSTEM_HD -->
+      <video_streams></video_streams>
+      <audio_streams></audio_streams>
+      <mpeg2_type>2</mpeg2_type><!-- LIVE_CONTENT_MPEG2_TYPE_TS -->
+      <sys_bitrate></sys_bitrate> 
+      <pack_size></pack_size>
+      <proper_pack_header></proper_pack_header>
+      <proper_audio_pack></proper_audio_pack>
+      <proper_video_pack></proper_video_pack>
+      <proper_video_pack_header></proper_video_pack_header>
+      <proper_system_header></proper_system_header>
+      <has_ifo></has_ifo>
+      <content_length></content_length>
+      <content_length_ifo></content_length_ifo>
+      <mpeg2_stream_id></mpeg2_stream_id>
+      <proper_sequence_header></proper_sequence_header>
+      <gop_display_fields></gop_display_fields>
+      <gop_display_frames></gop_display_frames>
+      <has_low_delay></has_low_delay>
+      <has_pts></has_pts>
+      <has_dts></has_dts>
+      <number_of_programs></number_of_programs>
+      <interlacing_info></interlacing_info>
+      <mpeg2_audio_profile></mpeg2_audio_profile>
+      <ac3_stream_id></ac3_stream_id>
+      <ac3_proper_pack_header></ac3_proper_pack_header>
+      <ac3_has_pts></ac3_has_pts>
+      <region>2</region><!-- LIVE_CONTENT_MPEG2_REGION_NA -->
+      <stream_type>1</stream_type><!-- LIVE_CONTENT_MPEG2_STREAM_NOTS -->
+      <audio_codec></audio_codec>
+      <system_prof>4</system_prof><!-- LIVE_CONTENT_SYS_MPEG2_TS_ISO -->
+      <system_bitrate>19392000</system_bitrate>
+    </item>
+  </videolist>
+</publish-content>

@@ -1,0 +1,48 @@
+/*
+    mem_rslv.txt
+    Copyright(c) 1996-2006 ACCESS CO., LTD.
+    All rights are reserved by ACCESS CO., LTD., whether the whole or
+    part of the source code including any modifications.
+*/
+
+/* tank */
+SLIM_RESOLVE_EXTERN TTankPeerProcs gSlim_TankPeerProcs;
+SLIM_RESOLVE_EXTERN TTank gSlim_MainTank;
+SLIM_RESOLVE_EXTERN TTankInfo gSlim_TankInfo;
+SLIM_RESOLVE_EXTERN slim_int gSlim_TotalBytes;
+SLIM_RESOLVE_EXTERN slim_bool gSlim_DetachableSubTankExist;
+
+/* memory */
+SLIM_RESOLVE_EXTERN TCallbackTable gSlim_TankCallbackTable[SLIM_TANK_MEMORY_MAX_NEW_HANDLERS];
+SLIM_RESOLVE_EXTERN slim_bool gSlim_DisableCompaction;
+
+/* mutex */
+#ifdef SLIM_CONFIG_MULTITHREAD
+SLIM_RESOLVE_EXTERN slim_opaque gSlim_TankMemoryMutex;
+#endif /* SLIM_CONFIG_MULTITHREAD */
+
+/* debug */
+#ifdef SLIM_CONFIG_MEMORY_DEBUG
+SLIM_RESOLVE_EXTERN slim_int gSlim_MemoryLocateCount;
+SLIM_RESOLVE_EXTERN Slim_MemoryRandomAllocFailureProc gSlim_MemoryRandomAllocFailureProc;
+SLIM_RESOLVE_EXTERN slim_word gSlim_MemoryFrom;
+#define SLIM_MEMORY_DEBUG_FROM_NAME_MAX 128
+SLIM_RESOLVE_EXTERN slim_char gSlim_MemoryFromName[SLIM_MEMORY_DEBUG_FROM_NAME_MAX];
+SLIM_RESOLVE_EXTERN SLIM_MemoryAllocFreeDebugNotifyProc gSlim_MemoryAllocFreeDebugNotifyProc;
+#endif /* SLIM_CONFIG_MEMORY_DEBUG */
+
+#ifdef SLIM_CONFIG_MEMORY_PROTECT_DEBUG
+SLIM_RESOLVE_EXTERN void *gSlim_MemoryProtectBase;
+#endif /* SLIM_CONFIG_MEMORY_PROTECT_DEBUG */
+
+#ifdef SLIM_CONFIG_POINTER_MEMNODE
+#ifdef SLIM_CONFIG_PTRMEMNODE_DEBUG
+SLIM_RESOLVE_EXTERN slim_bool gSlim_PtrMemNodeIDLast;
+SLIM_RESOLVE_EXTERN PtrMemNode_AllocFreeDebugNotifyProc gSlim_PtrMemNodeAllocFreeDebugNotifyProc;
+#endif /* SLIM_CONFIG_PTRMEMNODE_DEBUG */
+#endif /* SLIM_CONFIG_POINTER_MEMNODE */
+
+#ifdef SLIM_CONFIG_MEMNODE_DEBUG
+SLIM_RESOLVE_EXTERN slim_bool gSlim_MemNodeIDLast;
+SLIM_RESOLVE_EXTERN TankMemNode_AllocFreeDebugNotifyProc gSlim_TankMemNodeAllocFreeDebugNotifyProc;
+#endif /* SLIM_CONFIG_MEMNODE_DEBUG */

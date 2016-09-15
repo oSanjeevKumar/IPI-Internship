@@ -1,0 +1,369 @@
+﻿<Controls:MetroWindow x:Class="DMS.APP.Forms.SharedUserControl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:gif="clr-namespace:XamlAnimatedGif;assembly=XamlAnimatedGif"
+        xmlns:xamllocal="clr-namespace:DMS.APP.Helpers"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+        xmlns:self="clr-namespace:DMS.APP.Forms"
+        Title="Jio Server" WindowState="Normal" ShowMaxRestoreButton="True" MinHeight="200" MinWidth="300"
+        Loaded="MetroWindow_Loaded" StateChanged="Window_StateChanged"  Closing="MetroWindow_Closing" WindowStartupLocation="CenterScreen" SizeChanged="MetroWindow_SizeChanged"
+        BorderThickness="2.0" BorderBrush="#1076bb" ShowIconOnTitleBar="True" WindowTitleBrush="#1076bb" IconTemplate="{StaticResource WindowIconTemplate}"  TitleCaps="False" TitleForeground="White" >
+
+
+    <Window.CommandBindings>
+        <CommandBinding Command="New" Executed="AddShareFolders_Click" />
+        <CommandBinding Command="Copy" Executed="ConfigurationMenuItem_Click" />
+        <CommandBinding Command="Refresh" Executed="Refresh_Click" />
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Key="N" Modifiers="Control" Command="New" />
+        <KeyBinding Key="C" Modifiers="Control" Command="Copy" />
+        <KeyBinding Key="R" Modifiers="Control" Command="Refresh" />
+    </Window.InputBindings>
+
+
+    <Window.Resources>
+        <Style x:Key="AddButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Image Name="Normal" Source="..\Images\addsharedfolder_icon.png"/>
+                            <Image Name="Pressed" Source="..\Images\addsharedfolder_disabled.png" Visibility="Hidden"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="Normal" Property="Visibility" Value="Hidden"/>
+                                <Setter TargetName="Pressed" Property="Visibility" Value="Visible"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style  x:Key="ContextMenuImageStyle" TargetType="Image">
+            <Setter Property="Height" Value="17"></Setter>
+            <Setter Property="Width" Value="17"></Setter>
+        </Style>
+        <ContextMenu x:Key="NotifierContextMenu"
+                    Placement="MousePoint">
+            <MenuItem Header="Open" Click="Open_DMS_Click">
+                <MenuItem.Icon>
+                    <Image Source="..\Images\openapp_icon.png" Style="{StaticResource ContextMenuImageStyle}"></Image>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="Close" Click="Close_DMS_Click">
+                <MenuItem.Icon>
+                    <Image Source="..\Images\closeapp_icon.png" Style="{StaticResource ContextMenuImageStyle}"></Image>
+                </MenuItem.Icon>
+            </MenuItem>
+        </ContextMenu>
+
+        <xamllocal:intToStringPglevel x:Key="intToStringPglevel" />
+
+        <!--<Style x:Key="TreeViewItemStyle" TargetType="{x:Type TreeViewItem}">
+            <Setter Property="IsSelected" Value="{Binding IsSelected}" />
+            <Setter Property="ToolTip" Value="{Binding oToolTip}" />
+            <Setter Property="IsExpanded" Value="{Binding IsExpanded}" />
+            <Setter Property="Background" Value="Red" />           
+        </Style>-->
+
+        <!--<Style x:Key="TreeviewitemStyle" TargetType="{x:Type TreeViewItem}">
+            <EventSetter Event="TreeViewItem.MouseRightButtonDown" Handler="trvContent_RightClick"/>
+            <EventSetter Event="TreeViewItem.MouseLeftButtonUp" Handler="trvContent_MouseLeftButtonUp"/>
+            <EventSetter Event="TreeViewItem.Expanded" Handler="trvContent_Expanded"/>
+            <Setter Property="Template"  >
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TreeViewItem}"  >
+                        <StackPanel  Name="stkp" Orientation="Horizontal"  Background="Transparent"  VerticalAlignment="Center"  >
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="10,5,0,5" >
+                                <TextBlock Name="Labal" Text="{Binding Name}" VerticalAlignment="Center"  Margin="10,0" />
+                            </StackPanel>
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true" >
+                                <Setter TargetName="stkp" Property="Background" Value="Blue" />
+                                <Setter TargetName="Labal" Property="Foreground" Value="Black" />
+
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="true" >
+                                <Setter TargetName="stkp" Property="Background" Value="Red" />
+                                <Setter TargetName="Labal" Property="Foreground" Value="white" />
+
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>-->
+
+    </Window.Resources>
+
+    <Grid Name="MainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="239*"/>
+            <ColumnDefinition Width="138*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="33"/>
+            <RowDefinition Height="33"/>
+            <RowDefinition Height="8"/>
+            <RowDefinition Height="428*"/>
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Menu Name="miTitelMenu" Background="#f7f7f7" Margin="2,0,0,0">
+                <MenuItem Header="Menu" Background="#f7f7f7">
+                    <MenuItem Header="Configuration" Click="ConfigurationMenuItem_Click" InputGestureText="Ctrl+C">
+                        <MenuItem.Icon>
+                            <Image Source="..\Images\configuration_icon.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Refresh" Click="Refresh_Click" InputGestureText="Ctrl+R">
+                        <MenuItem.Icon>
+                            <Image Source="..\Images\refresh_icon.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Help" Background="#f7f7f7"  InputGestureText="Ctrl+H">
+                    <MenuItem Header="About" Click="AboutMenuItem_Click" />
+                </MenuItem>
+                <MenuItem Name="miCATab" Header="Content Aggregation" Background="#f7f7f7" InputGestureText="Ctrl+A" Visibility="Collapsed">
+                    <MenuItem Name="miPauseCA" Header="Pause" Click="PauseMenuItem_Click" IsEnabled="False"/>
+                    <MenuItem Name="miResumeCA" Header="Resume" Click="ResumeMenuItem_Click" IsEnabled="False"/>
+                </MenuItem>
+            </Menu>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <DockPanel x:Name="PGValueHeader" DockPanel.Dock="Top">
+                <Label DockPanel.Dock="Right">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Shared Folders" FontWeight="Bold" Height="26"></Label>
+                    </StackPanel>
+                </Label>
+            </DockPanel>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+            <DockPanel x:Name="SharedFolderHeader" DockPanel.Dock="Top">
+                <Label DockPanel.Dock="Right">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Set PG Level" FontWeight="Bold" Height="26"></Label>
+                    </StackPanel>
+                </Label>
+            </DockPanel>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" DockPanel.Dock="Left" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="8,0,8,8">
+            <DockPanel HorizontalAlignment="Stretch" LastChildFill="True">
+                <DockPanel x:Name="HeaderPanel" DockPanel.Dock="Top">
+                    <Label DockPanel.Dock="Right">
+                        <Label.Style>
+                            <Style TargetType="Label">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#e0e0e0" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Label.Style>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="../Images/setpglevel_icon.png" Height="26" Width="26"/>
+                            <Label Content="PG Level" FontWeight="Bold" Width="59.607"></Label>
+                        </StackPanel>
+                    </Label>
+                    <Label DockPanel.Dock="Left">
+                        <Label.Style>
+                            <Style TargetType="Label">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#e0e0e0" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Label.Style>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Name="miAddShareFolder" Click="AddShareFolders_Click" Height="26"  Width="26" Style="{DynamicResource AddButtonStyle}" ToolTip="Click to share folder(s)"/>
+                        </StackPanel>
+                    </Label>
+                </DockPanel>
+
+                <!--<Separator Margin="0,-1.5,0,0" Background="#b9b9b9" />-->
+                <Line Name="lineShareFolder" X1="0" X2="0" Y1="0" Y2="0" Stroke="#b9b9b9" StrokeThickness="3.5" Margin="0,0.5,0,0" DockPanel.Dock="Top"></Line>
+                <!--<ScrollViewer DockPanel.Dock="Top"  
+                              CanContentScroll="True" PanningMode="VerticalOnly" PanningRatio="1"
+                              Grid.Column="0" Grid.Row="2" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalContentAlignment="Stretch" PreviewMouseWheel="scrollServerLeftPanel_PreviewMouseWheel">-->
+
+                <TreeView Name="trvContent" Grid.Column="0" Grid.Row="2" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalContentAlignment="Stretch" 
+                          VirtualizingStackPanel.IsVirtualizing="True"
+                          VirtualizingStackPanel.VirtualizationMode="Recycling"
+                          SnapsToDevicePixels="True"
+                          ScrollViewer.IsDeferredScrollingEnabled="True" 
+                          ScrollViewer.CanContentScroll="True"
+                          ItemsSource="{Binding SharedBindedFolderList}" 
+                          TreeViewItem.Expanded = "trvContent_Expanded"
+                          >
+
+                    <TreeView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <VirtualizingStackPanel IsItemsHost="True" />
+                        </ItemsPanelTemplate>
+                    </TreeView.ItemsPanel>
+                    <!--<SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#70C5E9"/>-->
+                    <TreeView.ItemTemplate>
+
+
+                        <HierarchicalDataTemplate DataType="{x:Type self:BindingFolder}" ItemsSource="{Binding Items}" >
+
+                            <DockPanel HorizontalAlignment="Stretch"  LastChildFill="True" VerticalAlignment="Stretch" >
+                                <Image gif:AnimationBehavior.SourceUri="..\Images\loading.gif" Visibility="{Binding GifImageVissible}" ToolTip="Indexing in Progress"/>
+                                <Image  Source="{Binding IndexingState}" Visibility="{Binding vissible}" ToolTip="{Binding indexingToolTip}"/>
+                                <Label Content="{Binding DisplayName}" Foreground="{Binding ForegroundColor}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" DockPanel.Dock="Left" />
+                                <Label Content="{Binding DisplayPGLevel}" Foreground="{Binding ForegroundColor}" HorizontalAlignment="Right" HorizontalContentAlignment="Right" DockPanel.Dock="Right"/>
+                            </DockPanel>
+
+                        </HierarchicalDataTemplate>
+                    </TreeView.ItemTemplate>
+
+
+                    <TreeView.ItemContainerStyle>
+                        <Style TargetType="{x:Type TreeViewItem}" BasedOn="{StaticResource {x:Type TreeViewItem}}">
+                            <Setter Property="IsSelected" Value="{Binding IsSelected}" />
+                            <Setter Property="ToolTip" Value="{Binding oToolTip}" />
+                            <Setter Property="IsExpanded" Value="{Binding IsNodeExpanded, Mode=TwoWay}" />
+                            <Setter Property="Background" Value="{Binding BackgroudColor}" />
+                            <Setter Property="Foreground" Value="{Binding ForegroundColor}" />
+                            <Setter Property="HorizontalAlignment" Value="Stretch" />
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            <EventSetter Event="MouseRightButtonDown" Handler="trvContent_RightClick" />
+                            <Setter Property="Focusable" Value="False"/>
+                            <EventSetter Event="TreeViewItem.MouseLeftButtonDown" Handler="trvContent_MouseLeftButtonDown"/>
+                            <Setter Property="Grid.ColumnSpan" Value="2" />
+
+                        </Style>
+                    </TreeView.ItemContainerStyle>
+
+
+
+
+                    <TreeView.Resources>
+
+                    <!--<SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#70C5E9"/>
+
+                        <HierarchicalDataTemplate DataType="{x:Type self:BindingFolder}" ItemsSource="{Binding Items}" >
+                            <Border BorderThickness="1" BorderBrush="Red" HorizontalAlignment="Stretch">
+                                <DockPanel HorizontalAlignment="Stretch"  LastChildFill="True" VerticalAlignment="Stretch" >
+                                    <Label Content="{Binding DisplayName}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" />
+                                    <Label Content="{Binding DisplayPGLevel}" HorizontalAlignment="Right" HorizontalContentAlignment="Right"/>
+                                </DockPanel>
+                            </Border>
+                        </HierarchicalDataTemplate>-->
+                        <Style TargetType="{x:Type TreeView}">
+                            <EventSetter Event="MouseLeftButtonDown" Handler="trvTree_MouseLeftButtonDown"/>
+                            <EventSetter Event="MouseRightButtonDown" Handler="trvTree_RightClick" />
+
+                        </Style>
+                    </TreeView.Resources>
+
+                    <TreeView.ContextMenu>
+                        <ContextMenu Name="miContextTreeShareFolder">
+                            <MenuItem x:Name="miUnShareFolder" Header="Unshare Folder(s)" Click="miUnShareFolder_Click">
+                                <MenuItem.Icon>
+                                    <Image Source="..\Images\unsharefolder_icon.png"></Image>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                            <MenuItem x:Name="miTreeOpenFileLocation" Header="Open File Location" Click="miTreeOpenFileLocation_Click">
+                                <MenuItem.Icon>
+                                    <Image Source="..\Images\open_icon.png"></Image>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                            <Separator Name="miMenuSeprator" />
+                            <MenuItem x:Name="miTreeShareFolder" Header="Set PG Level" >
+                                <MenuItem.Icon>
+                                    <Image Source="..\Images\setpglevel_icon.png"></Image>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                        </ContextMenu>
+                    </TreeView.ContextMenu>
+                </TreeView>
+                <!--</ScrollViewer>-->
+            </DockPanel>
+        </Border>
+        <Border BorderThickness="1" BorderBrush="Gray" Grid.Column="1" Grid.Row="3" Margin="0,0,8,8">
+            <DataGrid Name="grvDeviceLevel" AutoGenerateColumns="False" IsReadOnly="True"
+                          BorderBrush="#b3b3b0" MouseRightButtonDown="grvDeviceLevel_MouseRightButtonDown" MouseLeftButtonUp="grvDeviceLevel_MouseLeftButtonUp" >
+
+                <DataGrid.Resources>
+                    <Style TargetType="DataGridCellsPresenter">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsDirty}" Value="true">
+                                <Setter Property="Margin" Value="-10,0,0,0" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#70C5E9"/>
+                </DataGrid.Resources>
+
+                <DataGrid.ContextMenu>
+                    <ContextMenu Name="miDevicePGLevel">
+                        <MenuItem x:Name="miRemoveDevice" Header="Remove Device" Click="miRemoveDevice_Click">
+                            <MenuItem.Icon>
+                                <Image Source="..\Images\remove_device_icon.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator Name="mideviceListSeprator" />
+                        <MenuItem x:Name="miSetPGLevel" Header="Set PG Level" >
+                            <MenuItem.Icon>
+                                <Image Source="..\Images\setpglevel_icon.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path=DeviceName}">
+                        <DataGridTextColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="-5,1,0,0" VerticalAlignment="Center"  >
+                                    <Image Source="../Images/Devices.png" Height="26" Width="26" VerticalAlignment="Center"  />
+                                    <Label Content ="Devices" FontWeight="Bold" VerticalAlignment="Center"  />
+                                </StackPanel >
+                            </DataTemplate>
+                        </DataGridTextColumn.HeaderTemplate>
+
+                        <DataGridTextColumn.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="ToolTip" Value="{Binding Level, Converter={StaticResource intToStringPglevel}}"/>
+                                <Setter Property="ToolTipService.Placement" Value="Top"></Setter>
+                                <Setter Property="Margin" Value="5,0,0,0"></Setter>
+                                <Setter Property="BorderThickness" Value="0"></Setter>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn Binding="{Binding Path=ShortPGLevel}">
+                        <DataGridTextColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <DockPanel Margin="15,0,0,0">
+                                    <Image Source="..\Images\setpglevel_icon.png" Height="26" Width="26" VerticalAlignment="Center"  />
+                                    <Label Content ="PG Level" FontWeight="Bold" VerticalAlignment="Center"  />
+                                </DockPanel>
+                            </DataTemplate>
+                        </DataGridTextColumn.HeaderTemplate>
+
+                        <DataGridTextColumn.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="ToolTip" Value="{Binding Level, Converter={StaticResource intToStringPglevel}}"/>
+                                <Setter Property="ToolTipService.Placement" Value="Top"></Setter>
+                                <Setter Property="Margin" Value="0,0,14,0"></Setter>
+                                <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+
+                </DataGrid.Columns>
+
+            </DataGrid>
+        </Border>
+
+    </Grid>
+</Controls:MetroWindow>
+

@@ -1,0 +1,133 @@
+/*
+	htelid.h
+	Copyright(c) 1996-2006 ACCESS CO., LTD.
+	All rights are reserved by ACCESS CO., LTD., whether the whole or
+	part of the source code including any modifications.
+*/
+
+/* $Header: $ */
+
+/* DO NOT EDIT! This file is generated automagically. */
+
+#ifndef SLIM_TOKEN_HTELID_H
+#define SLIM_TOKEN_HTELID_H
+
+
+SLIM_BEGIN_C_LINKAGE
+
+enum {
+	SLIM_TKID_HTEL_a = 0,
+	SLIM_TKID_HTEL_abbr,
+	SLIM_TKID_HTEL_acronym,
+	SLIM_TKID_HTEL_address,
+	SLIM_TKID_HTEL_applet,
+	SLIM_TKID_HTEL_area,
+	SLIM_TKID_HTEL_b,
+	SLIM_TKID_HTEL_base,
+	SLIM_TKID_HTEL_basefont,
+	SLIM_TKID_HTEL_bdo,
+	SLIM_TKID_HTEL_bgsound,
+	SLIM_TKID_HTEL_big,
+	SLIM_TKID_HTEL_blink,
+	SLIM_TKID_HTEL_blockquote,
+	SLIM_TKID_HTEL_body,
+	SLIM_TKID_HTEL_br,
+	SLIM_TKID_HTEL_button,
+	SLIM_TKID_HTEL_caption,
+	SLIM_TKID_HTEL__x_caption,
+	SLIM_TKID_HTEL_center,
+	SLIM_TKID_HTEL_cite,
+	SLIM_TKID_HTEL_code,
+	SLIM_TKID_HTEL_col,
+	SLIM_TKID_HTEL_colgroup,
+	SLIM_TKID_HTEL_dd,
+	SLIM_TKID_HTEL_del,
+	SLIM_TKID_HTEL_dfn,
+	SLIM_TKID_HTEL_dir,
+	SLIM_TKID_HTEL_div,
+	SLIM_TKID_HTEL_dl,
+	SLIM_TKID_HTEL_dt,
+	SLIM_TKID_HTEL_em,
+	SLIM_TKID_HTEL_embed,
+	SLIM_TKID_HTEL_fieldset,
+	SLIM_TKID_HTEL_font,
+	SLIM_TKID_HTEL_form,
+	SLIM_TKID_HTEL__end_form,
+	SLIM_TKID_HTEL_frame,
+	SLIM_TKID_HTEL_frameset,
+	SLIM_TKID_HTEL_h1,
+	SLIM_TKID_HTEL_h2,
+	SLIM_TKID_HTEL_h3,
+	SLIM_TKID_HTEL_h4,
+	SLIM_TKID_HTEL_h5,
+	SLIM_TKID_HTEL_h6,
+	SLIM_TKID_HTEL_head,
+	SLIM_TKID_HTEL_hr,
+	SLIM_TKID_HTEL_html,
+	SLIM_TKID_HTEL_i,
+	SLIM_TKID_HTEL_iframe,
+	SLIM_TKID_HTEL_image,
+	SLIM_TKID_HTEL_img,
+	SLIM_TKID_HTEL_input,
+	SLIM_TKID_HTEL_ins,
+	SLIM_TKID_HTEL_isindex,
+	SLIM_TKID_HTEL_kbd,
+	SLIM_TKID_HTEL_label,
+	SLIM_TKID_HTEL_legend,
+	SLIM_TKID_HTEL_li,
+	SLIM_TKID_HTEL_link,
+	SLIM_TKID_HTEL_map,
+	SLIM_TKID_HTEL_marquee,
+	SLIM_TKID_HTEL_menu,
+	SLIM_TKID_HTEL_meta,
+	SLIM_TKID_HTEL_nobr,
+	SLIM_TKID_HTEL_noembed,
+	SLIM_TKID_HTEL_noframes,
+	SLIM_TKID_HTEL_noscript,
+	SLIM_TKID_HTEL_object,
+	SLIM_TKID_HTEL_ol,
+	SLIM_TKID_HTEL_optgroup,
+	SLIM_TKID_HTEL_option,
+	SLIM_TKID_HTEL_p,
+	SLIM_TKID_HTEL_param,
+	SLIM_TKID_HTEL_plaintext,
+	SLIM_TKID_HTEL_pre,
+	SLIM_TKID_HTEL_q,
+	SLIM_TKID_HTEL_s,
+	SLIM_TKID_HTEL_samp,
+	SLIM_TKID_HTEL_script,
+	SLIM_TKID_HTEL_select,
+	SLIM_TKID_HTEL_small,
+	SLIM_TKID_HTEL_span,
+	SLIM_TKID_HTEL_strike,
+	SLIM_TKID_HTEL_strong,
+	SLIM_TKID_HTEL_style,
+	SLIM_TKID_HTEL_sub,
+	SLIM_TKID_HTEL_sup,
+	SLIM_TKID_HTEL_table,
+	SLIM_TKID_HTEL_tbody,
+	SLIM_TKID_HTEL_td,
+	SLIM_TKID_HTEL__x_td,
+	SLIM_TKID_HTEL_textarea,
+	SLIM_TKID_HTEL_tfoot,
+	SLIM_TKID_HTEL_th,
+	SLIM_TKID_HTEL_thead,
+	SLIM_TKID_HTEL_title,
+	SLIM_TKID_HTEL_tr,
+	SLIM_TKID_HTEL__x_tr,
+	SLIM_TKID_HTEL_tt,
+	SLIM_TKID_HTEL_u,
+	SLIM_TKID_HTEL_ul,
+	SLIM_TKID_HTEL_var,
+	SLIM_TKID_HTEL_wbr,
+	SLIM_TKID_HTEL_xml,
+	SLIM_TKID_HTEL_xmp,
+	SLIM_TKID_HTEL_ENUMS
+};
+
+#define SLIM_TOKEN_HTEL_TOKENS SLIM_TKID_HTEL_ENUMS
+#define SLIM_TOKEN_HTEL_ENUMS SLIM_TKID_HTEL_ENUMS
+
+
+SLIM_END_C_LINKAGE
+#endif
